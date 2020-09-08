@@ -1,0 +1,2408 @@
+# Translation of Plugins - AMP - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - AMP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-04 07:36:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - AMP - Stable (latest release)\n"
+
+#: includes/class-amp-theme-support.php:1866
+msgid "Go to non-AMP version"
+msgstr "Go to non-AMP version"
+
+#: includes/class-amp-theme-support.php:1844
+msgid "A PHP error occurred while trying to prepare the AMP response. This may not be caused by the AMP plugin but by some other active plugin or the current theme. You will need to review the error details to determine the source of the error."
+msgstr "A PHP error occurred while trying to prepare the AMP response. This may not be caused by the AMP plugin, but by some other active plugin, or the current theme. You will need to review the error details to determine the source of the error."
+
+#: includes/class-amp-theme-support.php:1843
+msgid "Failed to prepare AMP page"
+msgstr "Failed to prepare AMP page"
+
+#: src/ErrorPage.php:259
+msgid "The exact details of the error are hidden for security reasons. To learn more about this error, enable the WordPress debugging display (by setting both <code>WP_DEBUG</code> and <code>WP_DEBUG_DISPLAY</code> to <code>true</code>), or look into the PHP error log. Learn more about <a href=\"https://wordpress.org/support/article/debugging-in-wordpress/\">Debugging in WordPress</a>."
+msgstr "The exact details of the error are hidden for security reasons. To learn more about this error, enable the WordPress debugging display (by setting both <code>WP_DEBUG</code> and <code>WP_DEBUG_DISPLAY</code> to <code>true</code>), or look into the PHP error log. Learn more about <a href=\"https://wordpress.org/support/article/debugging-in-wordpress/\">Debugging in WordPress</a>."
+
+#: includes/admin/class-amp-post-meta-box.php:520
+msgid "The AMP enabled status failed to be updated."
+msgstr "The AMP enabled status failed to be updated."
+
+#: includes/admin/class-amp-post-meta-box.php:503
+msgid "Insufficient permissions to change whether AMP is enabled."
+msgstr "Insufficient permissions to change whether AMP is enabled."
+
+#. translators: %s: The name of the post type.
+#: includes/admin/class-amp-post-meta-box.php:493
+msgid "AMP is not supported for the \"%s\" post type."
+msgstr "AMP is not supported for the \"%s\" post type."
+
+#. translators: %s is a link to the AMP settings screen
+#: includes/admin/class-amp-post-meta-box.php:367
+msgid "This post type is not <a href=\"%s\" target=\"_blank\">enabled</a>."
+msgstr "This post type is not <a href=\"%s\" target=\"_blank\">enabled</a>."
+
+#. translators: %s is a link to the AMP settings screen
+#: includes/admin/class-amp-post-meta-box.php:360
+msgid "There are no <a href=\"%s\" target=\"_blank\">supported templates</a>."
+msgstr "There are no <a href=\"%s\" target=\"_blank\">supported templates</a>."
+
+#: includes/admin/class-amp-template-customizer.php:541
+msgid "You can import some settings from the primary Active theme into the corresponding Reader theme settings."
+msgstr "You can import some settings from the primary Active theme into the corresponding Reader theme settings."
+
+#: includes/admin/class-amp-template-customizer.php:535
+msgctxt "theme"
+msgid "Import"
+msgstr "Import"
+
+#: includes/admin/class-amp-template-customizer.php:534
+msgid "Import settings"
+msgstr "Import settings"
+
+#. translators: placeholder is URL to non-AMP Customizer.
+#: includes/admin/class-amp-template-customizer.php:354
+msgid "You are customizing the AMP version of your site. <a href=\"%s\">Customize non-AMP version</a>."
+msgstr "You are customising the AMP version of your site. <a href=\"%s\">Customise non-AMP version</a>."
+
+#. translators: 1: URL to AMP project, 2: URL to admin settings screen
+#: includes/admin/class-amp-template-customizer.php:273
+msgid "While <a href=\"%1$s\" target=\"_blank\">AMP</a> works well on both desktop and mobile pages, your site is <a href=\"%2$s\" target=\"_blank\">currently configured</a> in Reader mode to serve AMP pages to mobile visitors. These settings customize the experience for these users."
+msgstr "While <a href=\"%1$s\" target=\"_blank\">AMP</a> works well on both desktop and mobile pages, your site is <a href=\"%2$s\" target=\"_blank\">currently configured</a> in Reader mode to serve AMP pages to mobile visitors. These settings customise the experience for these users."
+
+#. translators: %s is WP_DEBUG_DISPLAY
+#: includes/validation/class-amp-validation-manager.php:2388
+msgid "Alternatively, you may enable %s to show the error details below."
+msgstr "Alternatively, you may enable %s to show the error details below."
+
+#: includes/validation/class-amp-validation-manager.php:2386
+msgid "The error details appear below."
+msgstr "The error details appear below."
+
+#: includes/validation/class-amp-validation-manager.php:2384
+msgid "A PHP fatal error occurred while validating the URL. This may indicate either a bug in theme/plugin code or it may be due to an issue in the AMP plugin itself."
+msgstr "A PHP fatal error occurred while validating the URL. This may indicate either a bug in the theme/plugin code, or it may be due to an issue in the AMP plugin itself."
+
+#. translators: %s is total count of validation errors
+#: includes/validation/class-amp-validation-manager.php:2016
+msgid "%s issue:"
+msgid_plural "%s issues:"
+msgstr[0] "%s issue:"
+msgstr[1] "%s issues:"
+
+#. translators: %s the total count of unreviewed validation errors
+#: includes/validation/class-amp-validation-manager.php:1994
+msgid "%s kept"
+msgid_plural "%s kept"
+msgstr[0] "%s kept"
+msgstr[1] "%s kept"
+
+#. translators: %s the total count of unreviewed validation errors
+#: includes/validation/class-amp-validation-manager.php:1972
+msgid "%s unreviewed"
+msgid_plural "%s unreviewed"
+msgstr[0] "%s unreviewed"
+msgstr[1] "%s unreviewed"
+
+#: includes/validation/class-amp-validation-manager.php:954
+msgid "In order for AMP to be served you will have to remove the invalid markup or allow the plugin to remove it."
+msgstr "In order for AMP to be served, you will have to remove the invalid markup or allow the plugin to remove it."
+
+#: includes/validation/class-amp-validation-manager.php:946
+#: assets/js/amp-block-validation.js:5
+msgid "The invalid markup has been automatically removed."
+msgstr "The invalid markup has been automatically removed."
+
+#: includes/validation/class-amp-validation-manager.php:433
+msgid "View with AMP disabled"
+msgstr "View with AMP disabled"
+
+#: includes/validation/class-amp-validation-manager.php:421
+msgid "Validate URL"
+msgstr "Validate URL"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3334
+msgid "Unreviewed"
+msgstr "Unreviewed"
+
+#. translators: %1$s is the layout, %2$s is the tag
+#: includes/validation/class-amp-validation-error-taxonomy.php:3214
+msgid "The specified layout %1$s is not supported by tag %2$s."
+msgstr "The specified layout %1$s is not supported by tag %2$s."
+
+#. translators: %1$s is the layout, %2$s is the tag
+#: includes/validation/class-amp-validation-error-taxonomy.php:3206
+msgid "The implied layout %1$s is not supported by tag %2$s."
+msgstr "The implied layout %1$s is not supported by tag %2$s."
+
+#. translators: %1$s is the element name, %2$s is the attribute name 'width',
+#. %3$s is the attribute name 'height'
+#: includes/validation/class-amp-validation-error-taxonomy.php:3197
+msgid "Incomplete layout attributes specified for tag %1$s. For example, provide attributes %2$s and %3$s"
+msgstr "Incomplete layout attributes specified for tag %1$s. For example, provide attributes %2$s and %3$s"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2070
+msgid "If all invalid markup is &#8220;removed&#8221; the page will be served as AMP. However, the impact that the removal has on the page must be assessed to determine if the result is acceptable. If any invalid markup is &#8220;kept&#8221; then the page will not be served as AMP."
+msgstr "If all invalid markup is &#8220;removed&#8221; the page will be served as AMP. However, the impact that the removal has on the page must be assessed to determine if the result is acceptable. If any invalid markup is &#8220;kept&#8221; then the page will not be served as AMP."
+
+#. translators: 1: script,  2: Documentation URL, 3: Documentation URL, 4:
+#. Documentation URL, 5: onclick, 6: Documentation URL, 7: amp-bind, 8:
+#. Documentation URL, 9: amp-script
+#: includes/validation/class-amp-validation-error-taxonomy.php:2031
+msgid "AMP does not allow the use of JS %1$s tags unless they are for loading <a href=\"%2$s\">AMP components</a>, which are added automatically by the AMP plugin. For any page to be served as AMP, all invalid script tags must be removed from the page. Instead of custom or third-party JS, please consider using AMP components and functionality such as <a href=\"%6$s\">%7$s</a> and <a href=\"%4$s\">actions and events</a> (as opposed to JS event handler attributes like %5$s). Some custom JS can be added if encapsulated in the <a href=\"%8$s\">%9$s</a>. Learn more about <a href=\"%3$s\">how AMP works</a>."
+msgstr "AMP does not allow the use of JS %1$s tags unless they are for loading <a href=\"%2$s\">AMP components</a>, which are added automatically by the AMP plugin. For any page to be served as AMP, all invalid script tags must be removed from the page. Instead of custom or third-party JS, please consider using AMP components and functionality such as <a href=\"%6$s\">%7$s</a> and <a href=\"%4$s\">actions and events</a> (as opposed to JS event handler attributes like %5$s). Some custom JS can be added if encapsulated in the <a href=\"%8$s\">%9$s</a>. Learn more about <a href=\"%3$s\">how AMP works</a>."
+
+#. translators: %s is number of errors accepted
+#: includes/validation/class-amp-validation-error-taxonomy.php:1532
+msgid "Deleted %s instance of validation errors."
+msgid_plural "Deleted %s instances of validation errors."
+msgstr[0] "Deleted %s instance of validation errors."
+msgstr[1] "Deleted %s instances of validation errors."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1384
+msgctxt "terms"
+msgid "Kept markup"
+msgstr "Kept markup"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1384
+msgctxt "terms"
+msgid "With kept markup"
+msgstr "With kept markup"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1379
+msgctxt "terms"
+msgid "Removed markup"
+msgstr "Removed markup"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1379
+msgctxt "terms"
+msgid "With removed markup"
+msgstr "With removed markup"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1374
+msgctxt "terms"
+msgid "Unreviewed errors"
+msgstr "Unreviewed errors"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1374
+msgctxt "terms"
+msgid "With unreviewed errors"
+msgstr "With unreviewed errors"
+
+#. translators: placeholder is URL to recheck the post
+#: includes/validation/class-amp-validated-url-post-type.php:2284
+msgid "Stylesheet information for this URL is no longer available. Such data is automatically deleted after a week to reduce database storage. It is of little value to store long-term given that it becomes stale as themes and plugins are updated. To obtain the latest stylesheet information, <a href=\"%s\">recheck this URL</a>."
+msgstr "Style sheet information for this URL is no longer available. Such data is automatically deleted after a week to reduce database storage. It is of little value to store long term, given that it becomes stale as themes and plugins are updated. To obtain the latest style sheet information, <a href=\"%s\">recheck this URL</a>."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2190
+msgid "AMP is disabled because some invalid markup has been kept. To enable AMP to be served, either mark the invalid markup as &#8220;removed&#8221; or provide an AMP-compatible fix that eliminates the invalid markup from being generated in the first place."
+msgstr "AMP is disabled because some invalid markup has been kept. To enable AMP to be served, either mark the invalid markup as &#8220;removed&#8221; or provide an AMP-compatible fix that eliminates the invalid markup from being generated in the first place."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2166
+msgid "For each instance of invalid markup, determine whether it can be safely removed or it needs to be kept. You can change the Markup Status (Removed or Kept) and click the Preview Changes button to see its impact on the page. Once the proper action has been taken (Remove or Keep), you can toggle the checkbox the instance as Reviewed."
+msgstr "For each instance of invalid markup, determine whether it can be safely removed or it needs to be kept. You can change the Markup Status (Removed or Kept) and click the Preview Changes button to see its impact on the page. Once the proper action has been taken (Remove or Keep), you can toggle the checkbox of the instance as Reviewed."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2163
+msgid "Invalid markup not reviewed"
+msgstr "Invalid markup not reviewed"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2148
+msgid "Plugins have been updated since these results were obtained."
+msgstr "Plugins have been updated since these results were obtained."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2145
+msgid "The theme has changed since these results were obtained."
+msgstr "The theme has changed since these results were obtained."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2142
+msgid "The theme and plugins have changed since these results were obtained."
+msgstr "The theme and plugins have changed since these results were obtained."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1761
+msgid "Location:"
+msgstr "Location:"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1688
+msgid "There are no validated URLs with this validation error. Would you like to delete it?"
+msgstr "There are no validated URLs with this validation error. Would you like to delete it?"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1323
+msgctxt "CSS usage not available"
+msgid "n/a"
+msgstr "n/a"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1247
+msgid "Confirm that the action being taken on the invalid markup (causing a validation error) has been seen and approved."
+msgstr "Confirm that the action being taken on the invalid markup (causing a validation error) has been seen and approved."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1242
+#: includes/validation/class-amp-validated-url-post-type.php:1246
+#: includes/validation/class-amp-validation-error-taxonomy.php:3332
+msgid "Reviewed"
+msgstr "Reviewed"
+
+#: includes/validation/class-amp-validated-url-post-type.php:209
+msgid "AMP DevTools"
+msgstr "AMP DevTools"
+
+#: includes/class-amp-theme-support.php:2219
+msgid "Redirecting since AMP version not available."
+msgstr "Redirecting since AMP version not available."
+
+#: includes/class-amp-theme-support.php:933
+msgid "The AMP plugin no longer allows `amp_supportable_templates` filters to specify a template's support as being `immutable`. This is now managed only in AMP Settings."
+msgstr "The AMP plugin no longer allows 'amp_supportable_templates' filters to specify a template's support as being 'immutable'. This is now managed only in AMP Settings."
+
+#: includes/class-amp-theme-support.php:926
+msgid "The AMP plugin no longer allows `amp_supportable_templates` filters to specify a template as being `supported`. This is now managed only in AMP Settings."
+msgstr "The AMP plugin no longer allows 'amp_supportable_templates' filters to specify a template as being 'supported'. This is now managed only in AMP Settings."
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:44
+#: assets/js/amp-block-editor.js:17
+msgid "AMP Unavailable"
+msgstr "AMP Unavailable"
+
+#. translators: 1: slug of the Reader theme, 2: the URL for the reader theme
+#. selection UI
+#: includes/options/class-amp-options-manager.php:536
+msgid "The AMP Reader theme %1$s cannot be found. Your site is currently falling back to using the Legacy templates for AMP pages. Please <a href=\"%2$s\">re-select</a> the desired Reader theme."
+msgstr "The AMP Reader theme %1$s cannot be found. Your site is currently falling back to using the Legacy templates for AMP pages. Please <a href=\"%2$s\">re-select</a> the desired Reader theme."
+
+#. translators: %s: $post
+#: includes/amp-helper-functions.php:1449
+msgid "The %s argument is deprecated."
+msgstr "The %s argument is deprecated."
+
+#. translators: 1: amphtml, 2: amp_add_amphtml_link(), 3: wp_head, 4:
+#. template_redirect
+#: includes/amp-helper-functions.php:786
+msgid "Removal of %1$s link should be done by removing %2$s from the %3$s action at %4$s."
+msgstr "Removal of %1$s link should be done by removing %2$s from the %3$s action at %4$s."
+
+#. translators: %1$s: amp_is_available(), %2$s: amp_is_request(), %3$s:
+#. is_amp_endpoint(), %4$s: the current action, %5$s: the wp action, %6$s: the
+#. WP_Query class, %7$s: the amp_skip_post() function
+#: includes/amp-helper-functions.php:423
+msgid "%1$s (or %2$s, formerly %3$s) was called too early and so it will not work properly. WordPress is currently doing the \"%4$s\" action. Calling this function before the \"%5$s\" action means it will not have access to %6$s and the queried object to determine if it is an AMP response, thus neither the \"%7$s\" filter nor the AMP enabled toggle will be considered."
+msgstr "%1$s (or %2$s, formerly %3$s) was called too early and so will not work properly. WordPress is currently doing the \"%4$s\" action. Calling this function before the \"%5$s\" action means it will not have access to %6$s and the queried object to determine if it is an AMP response, thus neither the \"%7$s\" filter nor the AMP enabled toggle will be considered."
+
+#. translators: 1: amp_is_enabled filter name, 2: plugins_loaded action
+#: includes/amp-helper-functions.php:250
+msgid "Filter for \"%1$s\" added too late. To disable AMP, this filter must be added before the \"%2$s\" action."
+msgstr "Filter for \"%1$s\" added too late. To disable AMP, this filter must be added before the \"%2$s\" action."
+
+#: src/ReaderThemeLoader.php:231 src/ReaderThemeLoader.php:243
+msgctxt "prefix for theme card in list"
+msgid "Reader:"
+msgstr "Reader:"
+
+#: src/ReaderThemeLoader.php:212
+msgid "Customize"
+msgstr "Customise"
+
+#. translators: placeholder is link to AMP settings screen
+#: src/ReaderThemeLoader.php:162
+msgid "This has been <a href=\"%s\">selected</a> as the AMP Reader theme."
+msgstr "This has been <a href=\"%s\">selected</a> as the AMP Reader theme."
+
+#. translators: text is describing validation issue(s)
+#: src/PluginSuppression.php:296
+#: includes/validation/class-amp-validation-manager.php:1963
+msgid "unreviewed"
+msgid_plural "all unreviewed"
+msgstr[0] "unreviewed"
+msgstr[1] "all unreviewed"
+
+#. translators: text is describing validation issue(s)
+#: src/PluginSuppression.php:296
+#: includes/validation/class-amp-validation-manager.php:2006
+msgid "reviewed"
+msgid_plural "all reviewed"
+msgstr[0] "reviewed"
+msgstr[1] "all reviewed"
+
+#. translators: text is describing validation issue(s)
+#: src/PluginSuppression.php:295
+#: includes/validation/class-amp-validation-manager.php:1985
+msgid "kept"
+msgid_plural "all kept"
+msgstr[0] "kept"
+msgstr[1] "all kept"
+
+#: src/PluginSuppression.php:295
+msgid "removed"
+msgstr "removed"
+
+#. translators: %1 is whether validation error is 'removed' or 'kept', %2 is
+#. whether validation error is 'reviewed' or 'unreviewed'
+#: src/PluginSuppression.php:294
+msgid "Invalid markup causing the validation error is %1$s and %2$s. See all validated URL(s) with this validation error."
+msgstr "Invalid markup causing the validation error is %1$s and %2$s. See all validated URLs with this validation error."
+
+#: src/MobileRedirection.php:474
+msgid "This link is not applicable in this context. It remains here for preview purposes only."
+msgstr "This link is not applicable in this context. It remains here for preview purposes only."
+
+#: src/MobileRedirection.php:436
+msgid "Go to mobile version"
+msgstr "Go to mobile version"
+
+#: src/MobileRedirection.php:432
+msgid "Exit mobile version"
+msgstr "Exit mobile version"
+
+#: src/OptionsRESTController.php:153
+#: includes/options/class-amp-reader-theme-rest-controller.php:67
+msgid "Sorry, you are not allowed to manage options for the AMP plugin for WordPress."
+msgstr "Sorry, you are not allowed to manage options for the AMP plugin for WordPress."
+
+#: src/Admin/DevToolsUserAccess.php:189
+msgid "Sorry, the current user is not allowed to make this change."
+msgstr "Sorry, the current user is not allowed to make this change."
+
+#: src/Admin/DevToolsUserAccess.php:148
+msgid "This presumes you have some experience coding with HTML, CSS, JS, and PHP."
+msgstr "This presumes you have some experience coding with HTML, CSS, JS, and PHP."
+
+#: src/Admin/DevToolsUserAccess.php:145
+msgid "Enable AMP developer tools to surface validation errors when editing posts and viewing the site."
+msgstr "Enable AMP developer tools to surface validation errors when editing posts and viewing the site."
+
+#: src/Admin/DevToolsUserAccess.php:141
+msgid "AMP Developer Tools"
+msgstr "AMP Developer Tools"
+
+#: src/Admin/DevToolsUserAccess.php:123
+msgid "Whether the user has enabled dev tools."
+msgstr "Whether the user has enabled developer tools."
+
+#: src/Admin/SiteHealth.php:474
+msgid "Additionally, AMP requires HTTPS for most components to work properly, including iframes and videos."
+msgstr "Additionally, AMP requires HTTPS for most components to work properly, including iframes and videos."
+
+#: src/Admin/PluginActivationNotice.php:82
+#: src/Admin/PluginActivationNotice.php:84
+msgid "Open the onboarding wizard"
+msgstr "Open the onboarding wizard"
+
+#: src/Admin/PluginActivationNotice.php:79
+msgid "Bring the speed and capabilities of the AMP web framework to your site; support content authoring and website development with the effective tools the AMP plugin provides."
+msgstr "Bring the speed and capabilities of the AMP web framework to your site; support content authoring and website development with the effective tools the AMP plugin provides."
+
+#: src/Admin/OnboardingWizardSubmenuPage.php:120
+#: src/Admin/OnboardingWizardSubmenu.php:54
+#: src/Admin/OnboardingWizardSubmenu.php:55
+msgid "AMP Onboarding Wizard"
+msgstr "AMP Onboarding Wizard"
+
+#: src/Admin/ReaderThemes.php:418
+msgid "The original templates included in the plugin with limited customization options."
+msgstr "The original templates included in the plugin with limited customisation options."
+
+#: src/Admin/ReaderThemes.php:413
+msgid "AMP Legacy"
+msgstr "AMP Legacy"
+
+#: src/Admin/SiteHealth.php:341
+msgid "The operation failed, please reload the page and try again."
+msgstr "The operation failed, please reload the page and try again."
+
+#: src/Admin/SiteHealth.php:340
+msgid "Reload the page to refresh the diagnostic check."
+msgstr "Reload the page to refresh the diagnostic check."
+
+#: src/Admin/SiteHealth.php:339
+msgid "Re-enable transient caching"
+msgstr "Re-enable transient caching"
+
+#: src/Admin/SiteHealth.php:336
+msgid "If you have identified and eliminated the cause of the variable CSS, please re-enable transient caching to reduce the amount of CSS processing required to generate AMP pages."
+msgstr "If you have identified and eliminated the cause of the variable CSS, please re-enable transient caching to reduce the amount of CSS processing required to generate AMP pages."
+
+#. translators: %1$s is wp_options table, %2$s is the
+#. amp_css_transient_monitoring_threshold filter, and %3$s is the
+#. amp_css_transient_monitoring_sampling_range filter
+#: src/Admin/SiteHealth.php:321
+msgid "On sites which have highly variable CSS and are not using a persistent object cache, the transient caching of parsed stylesheets may be automatically disabled in order to prevent a site from filling up its <code>%1$s</code> table with too many transients. Examples of highly variable CSS include dynamically-generated style rules with selectors referring to user IDs or elements being given randomized background colors. There are two filters which may be used to configure the CSS transient monitoring: <code>%2$s</code> and <code>%3$s</code>."
+msgstr "On sites which have highly variable CSS and are not using a persistent object cache, the transient caching of parsed style sheets may be automatically disabled in order to prevent a site from filling up its <code>%1$s</code> table with too many transients. Examples of highly variable CSS include dynamically-generated style rules with selectors referring to user IDs or elements being given randomised background colours. There are two filters which may be used to configure the CSS transient monitoring: <code>%2$s</code> and <code>%3$s</code>."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2228
+#: includes/validation/class-amp-validation-manager.php:460
+msgid "Paired Browsing"
+msgstr "Paired browsing"
+
+#: src/Admin/SiteHealth.php:443
+msgid "Calculated time series for monitoring the stylesheet caching"
+msgstr "Calculated time series for monitoring the style sheet caching"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3305
+msgid "Message"
+msgstr "Message"
+
+#. translators: %1$s: the fetched URL, %2$s the error message that was returned
+#: includes/sanitizers/class-amp-style-sanitizer.php:1475
+msgid "Failed to fetch: %1$s (%2$s)"
+msgstr "Failed to fetch: %1$s (%2$s)"
+
+#: includes/class-amp-theme-support.php:2496
+msgid "AMP Paired Browsing:"
+msgstr "AMP paired browsing:"
+
+#: includes/class-amp-theme-support.php:2458
+msgid "AMP Paired Browsing Unavailable"
+msgstr "AMP paired browsing unavailable"
+
+#: includes/class-amp-theme-support.php:2457
+msgid "Paired browsing is only available when AMP dev mode is enabled (e.g. when logged-in and admin bar is showing)."
+msgstr "Paired browsing is only available when AMP dev mode is enabled (e.g. when logged in and Toolbar is showing)."
+
+#: includes/class-amp-theme-support.php:2191
+msgid "AMP optimization could not be completed due to the following:"
+msgstr "AMP optimisation could not be completed due to the following:"
+
+#: includes/validation/class-amp-validation-manager.php:2404
+msgid "URL validation failed due to unexpected JSON in AMP validation response."
+msgstr "URL validation failed due to unexpected JSON in AMP validation response."
+
+#: includes/validation/class-amp-validation-manager.php:2395
+msgid "URL validation failed due to the AMP validation request not returning JSON data. This may be due to a PHP fatal error occurring."
+msgstr "URL validation failed due to the AMP validation request not returning JSON data. This may be due to a PHP fatal error occurring."
+
+#: includes/validation/class-amp-validation-manager.php:2358
+msgid "Unable to validate URL. A white screen of death was encountered which is likely due to a PHP fatal error."
+msgstr "Unable to validate URL. A white screen of death was encountered which is likely due to a PHP fatal error."
+
+#. translators: %1$s is link to Debugging in WordPress, %2$s is WP_DEBUG_LOG
+#: includes/validation/class-amp-validation-manager.php:2305
+msgid "Please check your server PHP error logs; to do this you may need to <a href=\"%1$s\" target=\"_blank\">enable</a> %2$s."
+msgstr "Please check your server PHP error logs; to do this you may need to <a href=\"%1$s\" target=\"_blank\">enable</a> %2$s."
+
+#: includes/validation/class-amp-validation-manager.php:2185
+msgid "Too many redirects."
+msgstr "Too many redirects."
+
+#: includes/validation/class-amp-validation-manager.php:1752
+msgid "Nonce authentication failed."
+msgstr "Nonce authentication failed."
+
+#: includes/validation/class-amp-validation-manager.php:503
+msgid "Preview link expired. Please try again."
+msgstr "Preview link expired. Please try again."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3301
+msgid "Required attribute value"
+msgstr "Required attribute value"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3297
+msgid "Required ancestor element"
+msgstr "Required ancestor element"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3295
+msgid "Disallowed ancestor element"
+msgstr "Disallowed ancestor element"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3293
+msgid "Required parent element"
+msgstr "Required parent element"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3291
+msgid "Required minimum child count"
+msgstr "Required minimum child count"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3289
+msgid "Required child count"
+msgstr "Required child count"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3287
+msgid "Children count"
+msgstr "Children count"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3285
+msgid "First child tag"
+msgstr "First child tag"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3283
+msgid "Child tag"
+msgstr "Child tag"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3281
+msgid "Missing attributes"
+msgstr "Missing attributes"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3279
+msgid "Property value"
+msgstr "Property value"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3276
+msgid "Required property value"
+msgstr "Required property value"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3274
+msgid "Invalid property value"
+msgstr "Invalid property value"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3271
+msgid "Property name"
+msgstr "Property name"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3268
+msgid "Missing property"
+msgstr "Missing property"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3254
+msgid "Mutually exclusive attributes"
+msgstr "Mutually exclusive attributes"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3192
+msgid "Inconsistent units for width and height"
+msgstr "Inconsistent units for width and height"
+
+#. translators: %1$s is the invalid attribute value, %2$s is the attribute name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3186
+msgid "Invalid value %1$s for attribute %2$s"
+msgstr "Invalid value %1$s for attribute %2$s"
+
+#. translators: %1$s is attribute name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3173
+msgid "Missing URL for attribute %s"
+msgstr "Missing URL for attribute %s"
+
+#. translators: %1$s is the relative URL, %2$s is attribute name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3165
+msgid "The relative URL %1$s for attribute %2$s is disallowed"
+msgstr "The relative URL %1$s for attribute %2$s is disallowed"
+
+#. translators: %1$s is the invalid URL, %2$s is attribute name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3157
+msgid "Malformed URL %1$s for attribute %2$s"
+msgstr "Malformed URL %1$s for attribute %2$s"
+
+#. translators: %1$s is the invalid protocol, %2$s is attribute name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3149
+msgid "Invalid URL protocol %1$s for attribute %2$s"
+msgstr "Invalid URL protocol %1$s for attribute %2$s"
+
+#. translators: %1$s is the attribute name, %2$s is the invalid attribute value
+#: includes/validation/class-amp-validation-error-taxonomy.php:3138
+msgid "The attribute %1$s is set to the invalid value %2$s"
+msgstr "The attribute %1$s is set to the invalid value %2$s"
+
+#. translators: %1$s is the node name, %2$s is the required ancestor tag name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3126
+msgid "The tag %1$s may only appear as a descendant of tag %2$s"
+msgstr "The tag %1$s may only appear as a descendant of tag %2$s"
+
+#. translators: %1$s is the node name, %2$s is the disallowed ancestor tag name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3118
+msgid "The tag %1$s may not appear as a descendant of tag %2$s"
+msgstr "The tag %1$s may not appear as a descendant of tag %2$s"
+
+#. translators: %1$s is the node name, %2$s is parent name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3109
+msgid "The parent tag of tag %1$s cannot be %2$s"
+msgstr "The parent tag of tag %1$s cannot be %2$s"
+
+#. translators: %1$s is the node name, %2$s is required child count
+#: includes/validation/class-amp-validation-error-taxonomy.php:3095
+msgid "Tag %1$s must have a minimum of %2$s child tag"
+msgid_plural "Tag %1$s must have a minimum of %2$s child tags"
+msgstr[0] "Tag %1$s must have a minimum of %2$s child tag"
+msgstr[1] "Tag %1$s must have a minimum of %2$s child tags"
+
+#. translators: %1$s is the node name, %2$s is required child count
+#: includes/validation/class-amp-validation-error-taxonomy.php:3080
+msgid "Tag %1$s must have %2$s child tag"
+msgid_plural "Tag %1$s must have %2$s child tags"
+msgstr[0] "Tag %1$s must have %2$s child tag"
+msgstr[1] "Tag %1$s must have %2$s child tags"
+
+#. translators: %1$s is the first child tag, %2$s is node name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3071
+msgid "Tag %1$s is disallowed as first child of tag %2$s"
+msgstr "Tag %1$s is disallowed as first child of tag %2$s"
+
+#. translators: %1$s is the child tag, %2$s is node name
+#: includes/validation/class-amp-validation-error-taxonomy.php:3063
+msgid "Tag %1$s is disallowed as child of tag %2$s"
+msgstr "Tag %1$s is disallowed as child of tag %2$s"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3041
+msgid "Missing at least one mandatory attribute"
+msgstr "Missing at least one mandatory attribute"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3038
+msgid "Missing exclusive mandatory attribute"
+msgstr "Missing exclusive mandatory attribute"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3020
+msgid "Mutually exclusive attributes encountered"
+msgstr "Mutually exclusive attributes encountered"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3014
+msgid "Missing required attribute"
+msgstr "Missing required attribute"
+
+#. translators: %1$s is the property name, %2$s is the value for the property
+#: includes/validation/class-amp-validation-error-taxonomy.php:3007
+msgid "Invalid value for %1$s property: %2$s"
+msgstr "Invalid value for %1$s property: %2$s"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2999
+msgid "Missing required property"
+msgstr "Missing required property"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2993
+#: includes/validation/class-amp-validation-error-taxonomy.php:3266
+msgid "Invalid property"
+msgstr "Invalid property"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2985
+msgid "Invalid JSON"
+msgstr "Invalid JSON"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2978
+msgid "Illegal text content"
+msgstr "Illegal text content"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2964
+msgid "Stylesheet fetch error"
+msgstr "Style sheet fetch error"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2924
+msgid "Invalid inline script"
+msgstr "Invalid inline script"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2502
+msgid "Inline Text"
+msgstr "Inline text"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2499
+msgid "Inline Type"
+msgstr "Inline type"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2495
+msgid "Dependent Style"
+msgstr "Dependent style"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2493
+msgid "Dependent Script"
+msgstr "Dependent script"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2488
+msgid "Enqueued Style"
+msgstr "Enqueued style"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2486
+msgid "Enqueued Script"
+msgstr "Enqueued script"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2151
+msgid "required value"
+msgstr "required value"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2074
+msgid "Error code"
+msgstr "Error code"
+
+#. translators: %s: UTF-8, a charset
+#: includes/validation/class-amp-validation-error-taxonomy.php:1782
+msgid "Malformed %s characters, possibly incorrectly encoded"
+msgstr "Malformed %s characters, possibly incorrectly encoded"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1778
+msgid "Syntax error"
+msgstr "Syntax error"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1775
+msgid "Control character error, possibly incorrectly encoded"
+msgstr "Control character error, possibly incorrectly encoded"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1772
+msgid "Invalid or malformed JSON"
+msgstr "Invalid or malformed JSON"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1769
+msgid "The maximum stack depth has been exceeded"
+msgstr "The maximum stack depth has been exceeded"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1766
+msgid "Expected JSON, got an empty value"
+msgstr "Expected JSON, got an empty value"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2712
+msgid "Show styles removed during tree-shaking"
+msgstr "Show styles removed during tree-shaking"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2704
+msgid "All of the stylesheet was removed during tree-shaking."
+msgstr "All of the style sheet was removed during tree-shaking."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2699
+msgid "The stylesheet was empty after minification (removal of comments and whitespace)."
+msgstr "The style sheet was empty after minification (removal of comments and whitespace)."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2657
+msgid "Class name generated during extraction of inline style to style[amp-custom]."
+msgstr "Class name generated during extraction of inline style to style[amp-custom]."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2647
+msgid "Selector generated to increase specificity for important properties so that the CSS cascade is preserved. AMP does not allow important properties."
+msgstr "Selector generated to increase specificity for important properties so that the CSS cascade is preserved. AMP does not allow important properties."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2645
+msgid "Selector generated to increase specificity so the cascade is preserved for properties moved from style attribute to CSS rules in style[amp-custom]."
+msgstr "Selector generated to increase specificity so the cascade is preserved for properties moved from style attribute to CSS rules in style[amp-custom]."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2615
+msgid "CSS Code"
+msgstr "CSS code"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2598
+msgid "Stylesheet URL"
+msgstr "Style sheet URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2594
+msgid "Original Markup"
+msgstr "Original markup"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2555
+msgid "Stylesheet excluded due to exceeding CSS budget"
+msgstr "Style sheet excluded due to exceeding CSS budget"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2552
+msgid "Stylesheet overruns CSS budget yet it is still included on page"
+msgstr "Style sheet overruns CSS budget yet it is still included on page"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2549
+msgid "Stylesheet included"
+msgstr "Style sheet included"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2538
+msgid "Stylesheet bytes of total CSS added to page"
+msgstr "Style sheet bytes of total CSS added to page"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2509
+msgid "Expand/collapse"
+msgstr "Expand/collapse"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2462
+msgid "Markup"
+msgstr "Markup"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2461
+msgid "Included"
+msgstr "Included"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2460
+msgid "Priority"
+msgstr "Priority"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2459
+msgid "Percent"
+msgstr "Percent"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2456
+msgid "Final"
+msgstr "Final"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2454
+msgid "Minified"
+msgstr "Minified"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2451
+msgid "Original"
+msgstr "Original"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2449
+msgid "Order"
+msgstr "Order"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2440
+msgid "You are nearing the limit of the CSS budget. Once this limit is reached, stylesheets deemed of lesser priority will be excluded from the page. Please review the stylesheets below and determine if the current theme or a particular plugin is including excessive CSS."
+msgstr "You are nearing the limit of the CSS budget. Once this limit is reached, style sheets deemed of lesser priority will be excluded from the page. Please review the style sheets below and determine if the current theme or a particular plugin is including excessive CSS."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2434
+msgid "Please review the flagged stylesheets below and determine if the current theme or a particular plugin is including excessive CSS."
+msgstr "Please review the flagged style sheets below and determine if the current theme or a particular plugin is including excessive CSS."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2432
+msgid "You have exceeded the CSS budget. Stylesheets deemed of lesser priority have been excluded from the page."
+msgstr "You have exceeded the CSS budget. Style sheets deemed of lesser priority have been excluded from the page."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2430
+msgid "You have exceeded the CSS budget. The page will not be served as a valid AMP page."
+msgstr "You have exceeded the CSS budget. The page will not be served as a valid AMP page."
+
+#. translators: %s is the number of stylesheets excluded
+#: includes/validation/class-amp-validated-url-post-type.php:2413
+msgid "Excluded minified CSS (%s stylesheet):"
+msgid_plural "Excluded minified CSS size (%s stylesheets):"
+msgstr[0] "Excluded minified CSS (%s style sheet):"
+msgstr[1] "Excluded minified CSS size (%s style sheets):"
+
+#. translators: %s is max kilobytes
+#: includes/validation/class-amp-validated-url-post-type.php:2384
+msgid "Percentage of used CSS budget (%sKB):"
+msgstr "Percentage of used CSS budget (%sKB):"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2371
+msgid "Total CSS size after minification:"
+msgstr "Total CSS size after minification:"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2366
+#: includes/validation/class-amp-validated-url-post-type.php:2375
+#: includes/validation/class-amp-validated-url-post-type.php:2421
+#: includes/validation/class-amp-validated-url-post-type.php:2452
+#: includes/validation/class-amp-validated-url-post-type.php:2457
+msgctxt "abbreviation for bytes"
+msgid "B"
+msgstr "B"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2366
+#: includes/validation/class-amp-validated-url-post-type.php:2375
+#: includes/validation/class-amp-validated-url-post-type.php:2421
+#: includes/validation/class-amp-validated-url-post-type.php:2452
+#: includes/validation/class-amp-validated-url-post-type.php:2457
+msgid "bytes"
+msgstr "bytes"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2362
+msgid "Total CSS size prior to minification:"
+msgstr "Total CSS size prior to minification:"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2295
+msgid "Unable to retrieve data for stylesheets."
+msgstr "Unable to retrieve data for style sheets."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2062
+msgid "Stylesheets"
+msgstr "Style sheets"
+
+#: includes/sanitizers/class-amp-style-sanitizer.php:2991
+#: includes/validation/class-amp-validated-url-post-type.php:1183
+msgid "CSS Usage"
+msgstr "CSS Usage"
+
+#: includes/templates/amp-paired-browsing.php:77
+msgid "AMP version"
+msgstr "AMP version"
+
+#: includes/templates/amp-paired-browsing.php:68
+msgid "Non-AMP version"
+msgstr "Non-AMP version"
+
+#: includes/templates/amp-paired-browsing.php:57
+msgid "Go Back"
+msgstr "Go back"
+
+#: includes/templates/amp-paired-browsing.php:54
+msgid "Exit"
+msgstr "Exit"
+
+#: includes/templates/amp-paired-browsing.php:48
+msgid "The navigated page does not have an AMP counterpart due to invalid AMP markup being kept."
+msgstr "The navigated page does not have an AMP counterpart due to invalid AMP markup being kept."
+
+#: includes/templates/amp-paired-browsing.php:44
+msgid "The navigated URL is not available for paired browsing."
+msgstr "The navigated URL is not available for paired browsing."
+
+#: includes/templates/amp-paired-browsing.php:30
+msgid "Exit paired browsing onto the AMP version."
+msgstr "Exit paired browsing onto the AMP version."
+
+#: includes/templates/amp-paired-browsing.php:29
+msgid "Exit paired browsing onto the non-AMP version."
+msgstr "Exit paired browsing onto the non-AMP version."
+
+#: includes/templates/amp-paired-browsing.php:25
+msgid "Skip to the AMP iframe"
+msgstr "Skip to the AMP iframe"
+
+#: includes/templates/amp-paired-browsing.php:24
+msgid "Skip to the non-AMP iframe"
+msgstr "Skip to the non-AMP iframe"
+
+#: includes/templates/amp-paired-browsing.php:19
+msgid "Loading&#8230;"
+msgstr "Loading&#8230;"
+
+#: src/BackgroundTask/CronBasedBackgroundTask.php:164
+msgid "Large site detected. Deactivation will leave orphaned scheduled events behind."
+msgstr "Large site detected. Deactivation will leave orphaned scheduled events behind."
+
+#: src/Admin/SiteHealth.php:519
+msgid "This option does not apply to Reader mode."
+msgstr "This option does not apply to reader mode."
+
+#: src/Admin/SiteHealth.php:506
+msgid "No template supported"
+msgstr "No template supported"
+
+#: src/Admin/SiteHealth.php:438
+msgid "Number of stylesheet transient cache entries"
+msgstr "Number of style sheet transient cache entries"
+
+#: src/Admin/SiteHealth.php:433
+msgid "Sampling range for monitoring stylesheet caching"
+msgstr "Sampling range for monitoring style sheet caching"
+
+#: src/Admin/SiteHealth.php:428
+msgid "Threshold for monitoring stylesheet caching"
+msgstr "Threshold for monitoring style sheet caching"
+
+#: src/Admin/SiteHealth.php:423
+msgid "Transient caching for stylesheets disabled"
+msgstr "Transient caching for style sheets disabled"
+
+#: src/Admin/SiteHealth.php:418
+msgid "Serve all templates as AMP?"
+msgstr "Serve all templates as AMP?"
+
+#: src/Admin/SiteHealth.php:413
+msgid "Templates enabled"
+msgstr "Templates enabled"
+
+#: src/Admin/SiteHealth.php:400
+msgid "Debugging information for the Official AMP Plugin for WordPress."
+msgstr "Debugging information for the Official AMP Plugin for WordPress."
+
+#: src/Admin/SiteHealth.php:373
+msgid "Your server currently does not have the Xdebug PHP extension loaded"
+msgstr "Your server currently does not have the Xdebug PHP extension loaded"
+
+#. translators: %s: the WP_DEBUG constant
+#: src/Admin/SiteHealth.php:370
+msgid "Please deactivate Xdebug to improve performance. Otherwise, you may enable %s to indicate that this site is currently under development or is undergoing debugging."
+msgstr "Please deactivate Xdebug to improve performance. Otherwise, you may enable %s to indicate that this site is currently under development or is undergoing debugging."
+
+#. translators: %s: the WP_DEBUG constant
+#: src/Admin/SiteHealth.php:365
+msgid "Nevertheless, %s is enabled which suggests that this site is currently under development or is undergoing debugging."
+msgstr "Nevertheless, %s is enabled which suggests that this site is currently under development or is undergoing debugging."
+
+#: src/Admin/SiteHealth.php:362
+msgid "Your server currently has the Xdebug PHP extension loaded"
+msgstr "Your server currently has the Xdebug PHP extension loaded"
+
+#: src/Admin/SiteHealth.php:359
+msgid "The Xdebug extension can cause some of the AMP plugin&#8217;s processes to time out depending on your system resources and configuration. It should not be enabled on a live site (production environment)."
+msgstr "The Xdebug extension can cause some of the AMP plugin&#8217;s processes to time out depending on your system resources and configuration. It should not be enabled on a live site (production environment)."
+
+#: src/Admin/SiteHealth.php:310
+msgid "Transient caching of parsed stylesheets is enabled"
+msgstr "Transient caching of parsed style sheets is enabled"
+
+#: src/Admin/SiteHealth.php:306
+msgid "Transient caching of parsed stylesheets is disabled"
+msgstr "Transient caching of parsed style sheets is disabled"
+
+#: src/Admin/SiteHealth.php:302
+msgid "Transient caching of parsed stylesheets is not used due to external object cache"
+msgstr "Transient caching of parsed style sheets is not used due to external object cache"
+
+#. translators: %s: the ICU version
+#: src/Admin/SiteHealth.php:279
+msgid "The version of ICU (v%s) looks good"
+msgstr "The version of ICU (v%s) looks good"
+
+#. translators: %s: the ICU version
+#: src/Admin/SiteHealth.php:275
+msgid "The version of ICU (v%s) is out of date"
+msgstr "The version of ICU (v%s) is out of date"
+
+#. translators: %s: the constant for the ICU version
+#: src/Admin/SiteHealth.php:271
+msgid "The ICU version is unknown, as the constant %s is not defined"
+msgstr "The ICU version is unknown, as the constant %s is not defined"
+
+#: src/Admin/SiteHealth.php:261
+msgid "Learn more about ICU"
+msgstr "Learn more about ICU"
+
+#. translators: %s: the minimum recommended ICU version
+#: src/Admin/SiteHealth.php:254
+msgid "The version of ICU can affect how the intl extension runs. This extension is used to derive AMP Cache URLs for internationalized domain names (IDNs). The minimum recommended version of ICU is v%s."
+msgstr "The version of ICU can affect how the intl extension runs. This extension is used to derive AMP Cache URLs for internationalised domain names (IDNs). The minimum recommended version of ICU is v%s."
+
+#: src/Admin/SiteHealth.php:231
+msgid "The cURL multi functions are defined"
+msgstr "The cURL multi functions are defined"
+
+#. translators: %s: the name(s) of the cURL multi PHP function(s)
+#: src/Admin/SiteHealth.php:205
+msgid "The following cURL multi function is not defined: %s."
+msgid_plural "The following cURL multi functions are not defined: %s."
+msgstr[0] "The following cURL multi function is not defined: %s."
+msgstr[1] "The following cURL multi functions are not defined: %s."
+
+#: src/Admin/SiteHealth.php:195
+msgid "A cURL multi function is not defined"
+msgid_plural "Some cURL multi functions are not defined"
+msgstr[0] "A cURL multi function is not defined"
+msgstr[1] "Some cURL multi functions are not defined"
+
+#: src/Admin/SiteHealth.php:182
+msgid "Learn more about these functions"
+msgstr "Learn more about these functions"
+
+#: src/Admin/SiteHealth.php:181
+msgid "https://www.php.net/manual/en/book.curl.php"
+msgstr "https://www.php.net/manual/en/book.curl.php"
+
+#: src/Admin/SiteHealth.php:178
+msgid "The AMP plugin is able to more efficiently determine the dimensions of images lacking width or height by making parallel requests via cURL multi."
+msgstr "The AMP plugin is able to more efficiently determine the dimensions of images lacking width or height by making parallel requests via cURL multi."
+
+#: src/Admin/SiteHealth.php:145
+msgid "Persistent object caching is not enabled"
+msgstr "Persistent object caching is not enabled"
+
+#: src/Admin/SiteHealth.php:144
+msgid "Persistent object caching is enabled"
+msgstr "Persistent object caching is enabled"
+
+#. translators: The accessibility text.
+#. translators: accessibility text
+#: src/Admin/SiteHealth.php:121 src/Admin/SiteHealth.php:184
+#: src/Admin/SiteHealth.php:263 assets/js/amp-block-editor.js:3
+msgid "(opens in a new tab)"
+msgstr "(opens in a new tab)"
+
+#: src/Admin/SiteHealth.php:119
+msgid "Learn more about persistent object caching"
+msgstr "Learn more about persistent object caching"
+
+#: src/Admin/SiteHealth.php:137
+msgid "The AMP plugin performs at its best when persistent object cache is enabled. Object caching is used to more effectively store image dimensions and parsed CSS."
+msgstr "The AMP plugin performs at its best when persistent object cache is enabled. Object caching is used to more effectively store image dimensions and parsed CSS."
+
+#: src/Admin/SiteHealth.php:103
+msgid "Xdebug extension"
+msgstr "Xdebug extension"
+
+#: src/Admin/SiteHealth.php:99
+msgid "Transient caching of stylesheets"
+msgstr "Transient caching of style sheets"
+
+#: src/Admin/SiteHealth.php:93
+msgid "ICU version"
+msgstr "ICU version"
+
+#: src/Admin/SiteHealth.php:87
+msgid "cURL multi functions"
+msgstr "cURL multi functions"
+
+#: src/Admin/SiteHealth.php:83
+msgid "Persistent object cache"
+msgstr "Persistent object cache"
+
+#: includes/validation/class-amp-validation-manager.php:2349
+msgid "Failed to fetch URL to validate."
+msgstr "Failed to fetch URL to validate."
+
+#. translators: %s is the URL to Site Health Info.
+#: includes/validation/class-amp-validation-manager.php:2330
+msgid "Please include your <a href=\"%s\">Site Health Info</a>."
+msgstr "Please include your <a href=\"%s\">Site Health Info</a>."
+
+#. translators: %s is link to Site Health
+#: includes/validation/class-amp-validation-manager.php:2325
+msgid "Please check your <a href=\"%s\">Site Health</a> to verify it can perform loopback requests."
+msgstr "Please check your <a href=\"%s\">Site Health</a> to verify it can perform loopback requests."
+
+#. translators: %1$s: Link to support forum. %2$s: Link to new topic form in
+#. support forum.
+#: includes/validation/class-amp-validation-manager.php:2316
+msgid "If you are stuck, please search the <a href=\"%1$s\">support forum</a> for possible related topics, or otherwise start a <a href=\"%2$s\">new support topic</a> including the error message, the URL to your site, and your active theme/plugins."
+msgstr "If you are stuck, please search the <a href=\"%1$s\">support forum</a> for possible related topics, or otherwise start a <a href=\"%2$s\">new support topic</a> including the error message, the URL to your site, and your active theme/plugins."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1181
+msgid "Invalid Markup"
+msgstr "Invalid markup"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3252
+msgid "CSS property"
+msgstr "CSS property"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2987
+msgid "Illegal CSS !important property"
+msgstr "Illegal CSS !important property"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2967
+msgid "Illegal CSS property"
+msgstr "Illegal CSS property"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2962
+msgid "CSS parse error"
+msgstr "CSS parse error"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2960
+msgid "Unrecognized CSS"
+msgstr "Unrecognised CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2918
+msgid "Invalid script"
+msgstr "Invalid script"
+
+#. translators: %s is the byte count
+#: includes/validation/class-amp-validation-error-taxonomy.php:2660
+msgid "%s byte"
+msgid_plural "%s bytes"
+msgstr[0] "%s byte"
+msgstr[1] "%s bytes"
+
+#. translators: %s: amp_supportable_templates
+#: includes/class-amp-theme-support.php:648
+msgid "An expected parent was not found. Did you filter %s to not honor the template hierarchy?"
+msgstr "An expected parent was not found. Did you filter %s to not honour the template hierarchy?"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3256
+msgid "Text content"
+msgstr "Text content"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3250
+msgid "Parent element"
+msgstr "Parent element"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3247
+msgid "Node name"
+msgstr "Node name"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3245
+msgid "Element name"
+msgstr "Element name"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3243
+msgid "Attribute name"
+msgstr "Attribute name"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3237
+msgid "At-rule"
+msgstr "At-rule"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3235
+msgid "Code"
+msgstr "Code"
+
+#. translators: %s error code
+#: includes/validation/class-amp-validation-error-taxonomy.php:3221
+msgid "Unknown error (%s)"
+msgstr "Unknown error (%s)"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2956
+msgid "Duplicate element"
+msgstr "Duplicate element"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2940
+msgid "Invalid processing instruction"
+msgstr "Invalid processing instruction"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2688
+msgid "Custom HTML"
+msgstr "Custom HTML"
+
+#. translators: %d is the hook priority
+#: includes/validation/class-amp-validation-error-taxonomy.php:2583
+msgid "(priority %d)"
+msgstr "(priority %d)"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2558
+msgid "Core"
+msgstr "Core"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2554
+msgid "Must-Use Plugin"
+msgstr "Must-use plugin"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2550
+#: assets/js/amp-settings.js:27
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2546
+msgid "Theme"
+msgstr "Theme"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2529
+msgid "Action"
+msgstr "Action"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2527
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2520
+msgid "Location"
+msgstr "Location"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2517
+msgid "Function"
+msgstr "Function"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2511
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2508
+msgid "Block Name"
+msgstr "Block name"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2505
+msgid "Block Index"
+msgstr "Block index"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2482
+msgid "Post Type"
+msgstr "Post type"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2479
+msgid "Post ID"
+msgstr "Post ID"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2476
+msgid "Name"
+msgstr "Name"
+
+#. translators: %s: number of sources.
+#: includes/validation/class-amp-validation-error-taxonomy.php:2421
+msgid "Source stack (%s)"
+msgid_plural "Source stack (%s)"
+msgstr[0] "Source stack (%s)"
+msgstr[1] "Source stack (%s)"
+
+#. translators: 1: Documentation URL, 2: Documentation URL.
+#: includes/validation/class-amp-validation-error-taxonomy.php:2061
+msgid "AMP allows a specific set of elements and attributes on valid AMP pages. Learn about the <a href=\"%1$s\">AMP HTML specification</a>. If an element or attribute is not allowed in AMP, it must be removed for the page to be <a href=\"%2$s\">cached and eligible for prerendering</a>."
+msgstr "AMP allows a specific set of elements and attributes on valid AMP pages. Learn about the <a href=\"%1$s\">AMP HTML specification</a>. If an element or attribute is not allowed in AMP, it must be removed for the page to be <a href=\"%2$s\">cached and eligible for prerendering</a>."
+
+#. translators: 1: Documentation URL, 2: Documentation URL, 3: !important
+#: includes/validation/class-amp-validation-error-taxonomy.php:2049
+msgid "AMP allows you to <a href=\"%1$s\">style your pages using CSS</a> in much the same way as regular HTML pages, however there are some <a href=\"%2$s\">restrictions</a>. Nevertheless, the AMP plugin automatically inlines external stylesheets, transforms %3$s qualifiers, and uses tree shaking to remove the majority of CSS rules that do not apply to the current page. Nevertheless, AMP does have a 75KB limit and tree shaking cannot always reduce the amount of CSS under this limit; when this happens an excessive CSS error will result."
+msgstr "AMP allows you to <a href=\"%1$s\">style your pages using CSS</a> in much the same way as regular HTML pages, however there are some <a href=\"%2$s\">restrictions</a>. Nevertheless, the AMP plugin automatically inlines external style sheets, transforms %3$s qualifiers, and uses tree shaking to remove the majority of CSS rules that do not apply to the current page. Nevertheless, AMP does have a 75KB limit and tree shaking cannot always reduce the amount of CSS under this limit; when this happens an excessive CSS error will result."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2023
+msgid "Information"
+msgstr "Information"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1964
+msgid "Misc"
+msgstr "Misc"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1826
+#: includes/validation/class-amp-validation-error-taxonomy.php:3326
+msgid "Kept"
+msgstr "Kept"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1677
+msgid "HTML element"
+msgstr "HTML element"
+
+#. translators: %s is the number of validation errors cleared
+#: includes/validation/class-amp-validation-error-taxonomy.php:1555
+msgid "Cleared %s validation error for invalid markup that no longer occurs on the site."
+msgid_plural "Cleared %s validation errors for invalid markup that no longer occur on the site."
+msgstr[0] "Cleared %s validation error for invalid markup that no longer occurs on the site."
+msgstr[1] "Cleared %s validation errors for invalid markup that no longer occur on the site."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1475
+msgid "Invalid CSS"
+msgstr "Invalid CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1473
+msgid "With invalid CSS"
+msgstr "With invalid CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1468
+msgid "Invalid JS"
+msgstr "Invalid JS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1466
+msgid "With invalid JS"
+msgstr "With invalid JS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1461
+msgid "Invalid HTML attributes"
+msgstr "Invalid HTML attributes"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1459
+msgid "With invalid HTML attributes"
+msgstr "With invalid HTML attributes"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1454
+msgid "Invalid HTML elements"
+msgstr "Invalid HTML elements"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1452
+msgid "With invalid HTML elements"
+msgstr "With invalid HTML elements"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1448
+msgid "All types of invalid markup"
+msgstr "All types of invalid markup"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1368
+msgid "Filter by markup status"
+msgstr "Filter by markup status"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3005
+msgid "AMP Validated URL"
+msgstr "AMP validated URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2188
+msgid "AMP is enabled because no invalid markup is being kept."
+msgstr "AMP is enabled because no invalid markup is being kept."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2790
+msgid "Keep"
+msgstr "Keep"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1619
+msgid "The rechecked URL is free of non-removed invalid markup."
+msgid_plural "The rechecked URLs are free of non-removed invalid markup."
+msgstr[0] "The rechecked URL is free of non-removed invalid markup."
+msgstr[1] "The rechecked URLs are free of non-removed invalid markup."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1611
+msgid "The rechecked URL still has remaining invalid markup kept."
+msgid_plural "The rechecked URLs still have remaining invalid markup kept."
+msgstr[0] "The rechecked URL still has remaining invalid markup kept."
+msgstr[1] "The rechecked URLs still have remaining invalid markup kept."
+
+#. translators: %s is the hook name
+#: includes/validation/class-amp-validated-url-post-type.php:1472
+msgid "Hook: %s"
+msgstr "Hook: %s"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1466
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1462
+msgid "Content"
+msgstr "Content"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1219
+#: includes/validation/class-amp-validated-url-post-type.php:1223
+#: includes/validation/class-amp-validation-error-taxonomy.php:857
+#: includes/validation/class-amp-validation-error-taxonomy.php:861
+msgid "Context"
+msgstr "Context"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1177
+#: includes/validation/class-amp-validated-url-post-type.php:1236
+#: includes/validation/class-amp-validation-error-taxonomy.php:851
+msgid "When invalid markup is removed it will not block a URL from being served as AMP; the validation error will be sanitized, where the offending markup is stripped from the response to ensure AMP validity. If invalid AMP markup is kept, then URLs is occurs on will not be served as AMP pages."
+msgstr "When invalid markup is removed it will not block a URL from being served as AMP; the validation error will be sanitised, where the offending markup is stripped from the response to ensure AMP validity. If invalid AMP markup is kept, then URLs is occurs on will not be served as AMP pages."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1172
+#: includes/validation/class-amp-validated-url-post-type.php:1176
+#: includes/validation/class-amp-validated-url-post-type.php:1231
+#: includes/validation/class-amp-validated-url-post-type.php:1235
+#: includes/validation/class-amp-validation-error-taxonomy.php:846
+#: includes/validation/class-amp-validation-error-taxonomy.php:850
+#: includes/validation/class-amp-validation-error-taxonomy.php:1819
+msgid "Markup Status"
+msgstr "Markup status"
+
+#: includes/validation/class-amp-validated-url-post-type.php:655
+msgid "All markup valid"
+msgstr "All markup valid"
+
+#: includes/validation/class-amp-validated-url-post-type.php:647
+msgid "Invalid markup removed"
+msgstr "Invalid markup removed"
+
+#. translators: %s is the count of new validation errors
+#: includes/validation/class-amp-validated-url-post-type.php:632
+msgid "%s validation error with removed markup is new"
+msgid_plural "%s validation errors with removed markup are new"
+msgstr[0] "%s validation error with removed markup is new"
+msgstr[1] "%s validation errors with removed markup are new"
+
+#: includes/validation/class-amp-validated-url-post-type.php:623
+msgid "Invalid markup kept"
+msgstr "Invalid markup kept"
+
+#. translators: %s is the count of new validation errors
+#: includes/validation/class-amp-validated-url-post-type.php:609
+msgid "%s validation error with kept markup is new"
+msgid_plural "%s validation errors with kept markup are new"
+msgstr[0] "%s validation error with kept markup is new"
+msgstr[1] "%s validation errors with kept markup are new"
+
+#: includes/options/class-amp-options-manager.php:509
+msgid "https://wordpress.org/support/article/why-should-i-use-https/"
+msgstr "https://wordpress.org/support/article/why-should-i-use-https/"
+
+#. translators: %s: "Why should I use HTTPS" support URL
+#: includes/options/class-amp-options-manager.php:508
+msgid "Your site is not being fully served over a secure connection (using HTTPS).<br>As some AMP functionality requires a secure connection, you might experience degraded performance or broken components.<br><a href=\"%s\">More details</a>"
+msgstr "Your site is not being fully served over a secure connection (using https).<br>As some AMP functionality requires a secure connection, you might experience degraded performance or broken components.<br><a href=\"%s\">More details</a>"
+
+#: includes/deprecated.php:276
+msgid "Your server currently has the Xdebug PHP extension loaded. This can cause some of the AMP plugin's processes to timeout depending on your system resources and configuration. Please deactivate Xdebug for the best experience."
+msgstr "Your server currently has the Xdebug PHP extension loaded. This can cause some of the AMP plugin's processes to timeout depending on your system resources and configuration. Please deactivate Xdebug for the best experience."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2789
+msgid "Remove"
+msgstr "Remove"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:244
+msgid "Please contact the developer of this form processor to improve this message."
+msgstr "Please contact the developer of this form processor to improve this message."
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:242
+msgid "Even though the server responded OK, it is possible the submission was not processed."
+msgstr "Even though the server responded OK, it is possible the submission was not processed."
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:241
+msgid "It appears your submission was successful."
+msgstr "It appears your submission was successful."
+
+#. translators: %1$s: HTTP status text, %2$s: HTTP status code
+#: includes/sanitizers/class-amp-form-sanitizer.php:239
+msgid "The server responded with %1$s (code %2$s)."
+msgstr "The server responded with %1$s (code %2$s)."
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:237
+msgid "Your submission failed."
+msgstr "Your submission failed."
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:227
+msgid "Submitting…"
+msgstr "Submitting…"
+
+#. translators: %s: CSS selector for admin bar element
+#: includes/sanitizers/class-amp-style-sanitizer.php:2903
+msgid "Admin bar (%s) was removed to preserve AMP validity due to excessive CSS."
+msgstr "Toolbar (%s) was removed to preserve AMP validity due to excessive CSS."
+
+#. translators: %s: the fetched URL
+#: includes/sanitizers/class-amp-style-sanitizer.php:1482
+msgid "Failed to fetch: %s"
+msgstr "Failed to fetch: %s"
+
+#. translators: Admin screen title. %s: Admin screen name
+#: includes/validation/class-amp-validated-url-post-type.php:3008
+msgid "%s &#8212; WordPress"
+msgstr "%s &#8212; WordPress"
+
+#: includes/class-amp-http.php:382
+msgid "Redirecting…"
+msgstr "Redirecting…"
+
+#: includes/templates/amp-paired-browsing.php:29
+msgid "Non-AMP"
+msgstr "Non-AMP"
+
+#: amp.php:168 amp.php:188
+msgid "AMP plugin unable to initialize."
+msgstr "AMP plugin unable to initialise."
+
+#. translators: %s is list of missing extensions
+#: amp.php:143
+msgid "The following PHP function is missing: %s. Please contact your host to finish installation."
+msgid_plural "The following PHP functions are missing: %s. Please contact your host to finish installation."
+msgstr[0] "The following PHP function is missing: %s. Please contact your host to finish installation."
+msgstr[1] "The following PHP functions are missing: %s. Please contact your host to finish installation."
+
+#. translators: %s is list of missing extensions
+#: amp.php:128
+msgid "The following PHP class is missing: %s. Please contact your host to finish installation."
+msgid_plural "The following PHP classes are missing: %s. Please contact your host to finish installation."
+msgstr[0] "The following PHP class is missing: %s. Please contact your host to finish installation."
+msgstr[1] "The following PHP classes are missing: %s. Please contact your host to finish installation."
+
+#. translators: %s is list of missing extensions
+#: amp.php:113
+msgid "The following PHP extension is missing: %s. Please contact your host to finish installation."
+msgid_plural "The following PHP extensions are missing: %s. Please contact your host to finish installation."
+msgstr[0] "The following PHP extension is missing: %s. Please contact your host to finish installation."
+msgstr[1] "The following PHP extensions are missing: %s. Please contact your host to finish installation."
+
+#. translators: 1: AMP_Comment_Walker. 2: AMP_Comments_Sanitizer.
+#: includes/class-amp-comment-walker.php:11
+msgid "%1$s functionality has been moved to %2$s."
+msgstr "%1$s functionality has been moved to %2$s."
+
+#. translators: %s: WP_Service_Worker_Cache_Registry.
+#: includes/class-amp-service-worker.php:89
+msgid "Please update to PWA v0.2. Expected argument to be %s."
+msgstr "Please update to PWA v0.2. Expected argument to be %s."
+
+#. translators: %s is error code
+#: includes/validation/class-amp-validation-manager.php:2413
+msgid "URL validation failed. Error code: %s."
+msgstr "URL validation failed. Error code: %s."
+
+#. translators: localized date and time format, see http://php.net/date
+#: includes/validation/class-amp-validation-error-taxonomy.php:1863
+msgid "F j, Y g:i a"
+msgstr "F j, Y g:i a"
+
+#: includes/sanitizers/class-amp-style-sanitizer.php:1490
+msgid "Response did not contain the expected text/css content type."
+msgstr "Response did not contain the expected text/CSS content type."
+
+#. translators: 1: amp_add_amphtml_link(). 2: amp-helper-functions.php
+#: includes/amp-frontend-actions.php:16
+msgid "Use %1$s function which is already included from %2$s"
+msgstr "Use %1$s function which is already included from %2$s"
+
+#. translators: %s: the URL to the edit post screen.
+#: includes/class-amp-theme-support.php:808
+#: includes/class-amp-theme-support.php:817
+msgid "Currently disabled at the <a href=\"%s\">page level</a>."
+msgstr "Currently disabled at the <a href=\"%s\">page level</a>."
+
+#. translators: 1: embed handler. 2: AMP_Embed_Handler
+#: includes/templates/class-amp-content.php:179
+#: includes/class-amp-theme-support.php:1090
+msgid "Embed Handler (%1$s) must extend `%2$s`"
+msgstr "Embed Handler (%1$s) must extend `%2$s`"
+
+#. translators: 1: sanitizer class. 2: AMP_Base_Sanitizer
+#: includes/templates/class-amp-content-sanitizer.php:100
+msgid "Sanitizer (%1$s) must extend `%2$s`"
+msgstr "Sanitiser (%1$s) must extend `%2$s`"
+
+#: includes/class-amp-service-worker.php:320
+msgid "Installing service worker..."
+msgstr "Installing service worker..."
+
+#: includes/class-amp-service-worker.php:305
+#: includes/class-amp-service-worker.php:317
+msgid "Service Worker Installation"
+msgstr "Service Worker Installation"
+
+#: includes/class-amp-service-worker.php:304
+msgid "No service workers registered for the requested scope."
+msgstr "No service workers registered for the requested scope."
+
+#: includes/class-amp-service-worker.php:131
+#: includes/class-amp-service-worker.php:164
+msgid "Please update to PWA v0.2. Expected argument to be WP_Service_Worker_Scripts."
+msgstr "Please update to PWA v0.2. Expected argument to be WP_Service_Worker_Scripts."
+
+#. translators: 1: the analytics entry ID. 2: type. 3: attributes. 4:
+#. config_data. 5: comma-separated list of the actual entry keys.
+#: includes/amp-helper-functions.php:1300
+msgid "Analytics entry for %1$s is missing one of the following keys: `%2$s` or `%3$s` (array keys: %4$s)"
+msgstr "Analytics entry for %1$s is missing one of the following keys: `%2$s` or `%3$s` (array keys: %4$s)"
+
+#. Author of the plugin
+msgid "AMP Project Contributors"
+msgstr "AMP project contributors"
+
+#: includes/options/class-amp-options-manager.php:478
+msgid "PHP-CSS-Parser is not available so CSS processing will not be available."
+msgstr "PHP-CSS-Parser is not available so CSS processing will not be available."
+
+#. translators: %s: path to the conflicting library
+#: includes/options/class-amp-options-manager.php:469
+msgid "A conflicting version of PHP-CSS-Parser appears to be installed by another plugin or theme (located in %s). Because of this, CSS processing will be limited, and tree shaking will not be available."
+msgstr "A conflicting version of PHP-CSS-Parser appears to be installed by another plugin or theme (located in %s). Because of this, CSS processing will be limited, and tree shaking will not be available."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2354
+msgid "AMP CSS processing is limited because a conflicting version of PHP-CSS-Parser has been loaded by another plugin or theme. Tree shaking is not available."
+msgstr "AMP CSS processing is limited because a conflicting version of PHP-CSS-Parser has been loaded by another plugin or theme. Tree shaking is not available."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:247
+msgid "All AMP Validation Errors"
+msgstr "All AMP validation errors"
+
+#: includes/amp-helper-functions.php:798
+msgid "There is no amphtml version available for this URL."
+msgstr "There is no amphtml version available for this URL."
+
+#. translators: 1: @import. 2: wp_enqueue_style(). 3: font CDN URL.
+#: includes/sanitizers/class-amp-style-sanitizer.php:1664
+msgid "It is not a best practice to use %1$s to load font CDN stylesheets. Please use %2$s to enqueue %3$s as its own separate script."
+msgstr "It is not a best practice to use %1$s to load font CDN style sheets. Please use %2$s to enqueue %3$s as its own separate script."
+
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:368
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:394
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:410
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:426
+#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:155
+msgid "collapse child menu"
+msgstr "collapse child menu"
+
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:367
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:393
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:409
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:425
+#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:152
+msgid "expand child menu"
+msgstr "expand child menu"
+
+#: includes/class-amp-theme-support.php:843
+msgid "Not Found (404)"
+msgstr "Not found (404)"
+
+#: includes/class-amp-theme-support.php:840
+msgid "Search"
+msgstr "Search"
+
+#: includes/class-amp-theme-support.php:836 assets/js/amp-block-editor.js:17
+msgid "Date"
+msgstr "Date"
+
+#: includes/class-amp-theme-support.php:832
+msgid "Author"
+msgstr "Author"
+
+#: includes/class-amp-theme-support.php:813
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/class-amp-theme-support.php:803
+#: includes/class-amp-theme-support.php:821
+msgid "Homepage"
+msgstr "Homepage"
+
+#: includes/class-amp-theme-support.php:798
+msgid "Singular"
+msgstr "Singular"
+
+#. translators: %s: amp_supportable_templates
+#: includes/class-amp-theme-support.php:737
+msgid "Did not expect there to be more than one matching template. Did you filter %s to not honor the template hierarchy?"
+msgstr "Did not expect there to be more than one matching template. Did you filter %s to not honour the template hierarchy?"
+
+#. translators: %s: the supportable template ID.
+#: includes/class-amp-theme-support.php:600
+msgid "Supportable template \"%s\" does not have a callable callback."
+msgstr "Supportable template \"%s\" does not have a callable callback."
+
+#: includes/class-amp-theme-support.php:571
+msgid "No WP_Query available."
+msgstr "No WP_Query available."
+
+#: includes/validation/class-amp-validation-manager.php:2375
+msgid "An internal server error occurred when fetching the URL for validation."
+msgstr "An internal server error occurred when fetching the URL for validation."
+
+#: includes/validation/class-amp-validation-manager.php:2367
+msgid "The fetched URL was not found. It may have been deleted. If so, you can trash this."
+msgstr "The fetched URL was not found. It may have been deleted. If so, you can bin this."
+
+#: includes/validation/class-amp-validation-manager.php:960
+#: assets/js/amp-block-validation.js:5
+msgid "Review issues"
+msgstr "Review issues"
+
+#: includes/validation/class-amp-validation-manager.php:941
+msgid "There is content which fails AMP validation."
+msgstr "There is content which fails AMP validation."
+
+#: includes/validation/class-amp-validation-manager.php:701
+msgid "AMP validity status"
+msgstr "AMP validity status"
+
+#: includes/amp-helper-functions.php:1903
+#: includes/validation/class-amp-validation-manager.php:435
+msgid "View AMP version"
+msgstr "View AMP version"
+
+#: includes/amp-helper-functions.php:1903
+#: includes/validation/class-amp-validation-manager.php:435
+msgid "View non-AMP version"
+msgstr "View non-AMP version"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2950
+msgid "Illegal CSS at-rule"
+msgstr "Illegal CSS at-rule"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2946
+msgid "Excessive CSS"
+msgstr "Excessive CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2934
+#: includes/validation/class-amp-validation-error-taxonomy.php:3299
+msgid "Invalid attribute"
+msgstr "Invalid attribute"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2927
+msgid "Invalid element"
+msgstr "Invalid element"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2867
+msgid "You do not have authorization."
+msgstr "You do not have authorisation."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2862
+msgid "The link you followed has expired."
+msgstr "The link you followed has expired."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2707
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2706
+msgid "HTML Attribute"
+msgstr "HTML attribute"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2705
+msgid "HTML Element"
+msgstr "HTML element"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2078
+#: includes/validation/class-amp-validation-error-taxonomy.php:2093
+msgid "Invalid markup"
+msgstr "Invalid markup"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3240
+msgid "Element attributes"
+msgstr "Element attributes"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1856
+msgid "n/a"
+msgstr "n/a"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1683
+#: includes/validation/class-amp-validation-error-taxonomy.php:2708
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1680
+msgid "HTML attribute"
+msgstr "HTML attribute"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1674
+msgid "JS"
+msgstr "JS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1593
+#: includes/validation/class-amp-validation-error-taxonomy.php:1736
+msgid "Toggle error details"
+msgstr "Toggle error details"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1492
+msgid "Clear Empty"
+msgstr "Clear empty"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1445
+msgid "Filter by error type"
+msgstr "Filter by error type"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1370
+msgid "All statuses"
+msgstr "All statuses"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1270
+msgid "View Validated URLs"
+msgstr "View validated URLs"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1225
+msgid "Apply Filter"
+msgstr "Apply filter"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:867
+msgid "Last Seen"
+msgstr "Last seen"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:302
+msgid "Method must be passed a term slug (string) or error attributes (array)."
+msgstr "Method must be passed a term slug (string) or error attributes (array)."
+
+#. translators: Tab heading when selecting from the most used terms
+#: includes/validation/class-amp-validation-error-taxonomy.php:261
+msgid "Most Used Validation Errors"
+msgstr "Most used validation errors"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:259
+msgid "Validation errors list"
+msgstr "Validation errors list"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:258
+msgid "Validation errors navigation"
+msgstr "Validation errors navigation"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:255
+msgid "New Validation Error Hash"
+msgstr "New validation error hash"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:254
+msgid "Add New Validation Error"
+msgstr "Add new validation error"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:253
+msgid "View Validation Error"
+msgstr "View validation error"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:252
+msgid "Frequent Validation Errors"
+msgstr "Frequent validation errors"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:251
+msgid "Back to AMP Validation Errors"
+msgstr "Back to AMP validation errors"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:250
+#: includes/validation/class-amp-validation-error-taxonomy.php:1632
+msgid "Error Index"
+msgstr "Error index"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:249
+msgid "Update AMP Validation Error"
+msgstr "Update AMP validation error"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:246
+msgid "Search AMP Validation Errors"
+msgstr "Search AMP validation errors"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:245
+msgctxt "taxonomy singular name"
+msgid "AMP Validation Error"
+msgstr "AMP validation error"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:244
+msgctxt "taxonomy general name"
+msgid "AMP Validation Error Index"
+msgstr "AMP validation error index"
+
+#. translators: %s is the number of posts restored from trash.
+#: includes/validation/class-amp-validated-url-post-type.php:3171
+msgid "%s validated URL unforgotten."
+msgid_plural "%s validated URLs unforgotten."
+msgstr[0] "%s validated URL unforgotten."
+msgstr[1] "%s validated URLs unforgotten."
+
+#. translators: %s is the number of posts forgotten
+#: includes/validation/class-amp-validated-url-post-type.php:3157
+#: includes/validation/class-amp-validated-url-post-type.php:3164
+msgid "%s validated URL forgotten."
+msgid_plural "%s validated URLs forgotten."
+msgstr[0] "%s validated URL forgotten."
+msgstr[1] "%s validated URLs forgotten."
+
+#: includes/validation/class-amp-validated-url-post-type.php:3136
+msgid "Forgotten"
+msgstr "Forgotten"
+
+#. translators: %s: post title
+#: includes/validation/class-amp-validated-url-post-type.php:3112
+msgid "Forget &#8220;%s&#8221;"
+msgstr "Forget &#8220;%s&#8221;"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3090
+msgid "View"
+msgstr "View"
+
+#. translators: %s is the validation error count
+#: includes/validation/class-amp-validated-url-post-type.php:2958
+msgid "%s URL w/ new AMP errors"
+msgid_plural "%s URLs w/ new AMP errors"
+msgstr[0] "%s URL w/ new AMP errors"
+msgstr[1] "%s URLs w/ new AMP errors"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2785
+msgid "Search Errors"
+msgstr "Search errors"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2750
+msgid "Invalid taxonomy."
+msgstr "Invalid taxonomy."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2242
+msgid "Update"
+msgstr "Update"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2213
+msgid "View User"
+msgstr "View user"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2211
+msgid "Edit User"
+msgstr "Edit user"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2196
+msgid "View URL"
+msgstr "View URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2151
+msgid "Please recheck."
+msgstr "Please recheck."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2126
+msgid "Preview Changes"
+msgstr "Preview changes"
+
+#. translators: %s: The date this was published
+#: includes/validation/class-amp-validated-url-post-type.php:2112
+msgid "Last checked: <b>%s</b>"
+msgstr "Last checked: <b>%s</b>"
+
+#. translators: 1: number of errors being displayed. 2: total number of errors
+#. found.
+#: includes/sanitizers/class-amp-iframe-sanitizer.php:186
+#: assets/js/amp-validated-url-post-edit-screen.js:3
+msgid "Show all"
+msgstr "Show all"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1777
+#: includes/validation/class-amp-validated-url-post-type.php:1906
+msgid "You do not have permissions to validate an AMP URL. Did you get logged out?"
+msgstr "You do not have permissions to validate an AMP URL. Did you get logged out?"
+
+#. translators: %s is count of validation errors updated
+#: includes/validation/class-amp-validated-url-post-type.php:1645
+msgid "Updated %s validation error."
+msgid_plural "Updated %s validation errors."
+msgstr[0] "Updated %s validation error."
+msgstr[1] "Updated %s validation errors."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1508
+#: includes/validation/class-amp-validated-url-post-type.php:2238
+#: includes/validation/class-amp-validated-url-post-type.php:3113
+msgid "Forget"
+msgstr "Forget"
+
+#. translators: %s is the guessed theme as the source for the error
+#: includes/validation/class-amp-validated-url-post-type.php:1489
+msgid "%s (?)"
+msgstr "%s (?)"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1428
+msgid "Other"
+msgstr "Other"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1401
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1401
+msgid "Must-Use Plugins"
+msgstr "Must-use plugins"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1274
+#: includes/validation/class-amp-validated-url-post-type.php:2138
+msgid "Stale results"
+msgstr "Stale results"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1216
+#: includes/validation/class-amp-validation-error-taxonomy.php:866
+#: includes/validation/class-amp-validation-error-taxonomy.php:2514
+#: includes/validation/class-amp-validation-error-taxonomy.php:3258
+msgid "Type"
+msgstr "Type"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1224
+#: includes/validation/class-amp-validation-error-taxonomy.php:862
+msgid "The parent element of where the error occurred."
+msgstr "The parent element of where the error occurred."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1215
+#: includes/validation/class-amp-validation-error-taxonomy.php:843
+#: includes/validation/class-amp-validation-manager.php:504
+msgid "Error"
+msgstr "Error"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1194
+#: includes/validation/class-amp-validated-url-post-type.php:1200
+msgid "Last Checked"
+msgstr "Last checked"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1188
+#: includes/validation/class-amp-validated-url-post-type.php:1201
+#: includes/validation/class-amp-validation-error-taxonomy.php:3303
+msgid "URL"
+msgstr "URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1182
+#: includes/validation/class-amp-validated-url-post-type.php:1199
+#: includes/validation/class-amp-validated-url-post-type.php:1228
+#: includes/validation/class-amp-validated-url-post-type.php:2463
+#: includes/validation/class-amp-validated-url-post-type.php:2610
+#: includes/validation/class-amp-validation-error-taxonomy.php:2523
+#: includes/validation/class-amp-validation-error-taxonomy.php:3260
+msgid "Sources"
+msgstr "Sources"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2183
+msgid "AMP disabled"
+msgstr "AMP disabled"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2181
+#: includes/admin/class-amp-post-meta-box.php:448
+msgid "AMP enabled"
+msgstr "AMP enabled"
+
+#: includes/validation/class-amp-validated-url-post-type.php:454
+msgid "View Error Index"
+msgstr "View error index"
+
+#: includes/validation/class-amp-validated-url-post-type.php:170
+msgid "Search validated URLs"
+msgstr "Search validated URLs"
+
+#: includes/validation/class-amp-validated-url-post-type.php:169
+msgid "No forgotten validated URLs"
+msgstr "No forgotten validated URLs"
+
+#: includes/validation/class-amp-validated-url-post-type.php:168
+msgid "No validated URLs found"
+msgstr "No validated URLs found"
+
+#: includes/validation/class-amp-validated-url-post-type.php:167
+msgid "Validated URL"
+msgstr "Validated URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:166
+msgid "Validated URLs"
+msgstr "Validated URLs"
+
+#: includes/validation/class-amp-validated-url-post-type.php:165
+msgctxt "post type general name"
+msgid "AMP Validated URLs"
+msgstr "AMP validated URLs"
+
+#: includes/admin/class-amp-admin-pointers.php:68
+msgid "You can now reuse your theme's templates and styles in AMP responses, in both &#8220;Transitional&#8221; and &#8220;Standard&#8221; modes."
+msgstr "You can now reuse your theme's templates and styles in AMP responses, in both &#8220;transitional&#8221; and &#8220;standard&#8221; modes."
+
+#: includes/admin/class-amp-admin-pointers.php:67
+msgid "New AMP Template Modes"
+msgstr "New AMP template modes"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:253
+msgid "Learn More"
+msgstr "Learn more"
+
+#: src/Admin/PluginActivationNotice.php:78
+msgid "Welcome to AMP for WordPress"
+msgstr "Welcome to AMP for WordPress"
+
+#: src/Admin/OptionsMenu.php:117 src/Admin/OptionsMenu.php:153
+#: includes/validation/class-amp-validation-manager.php:473
+msgid "Settings"
+msgstr "Settings"
+
+#. translators: %s: the human-readable time difference.
+#: back-compat/templates-v0-3/meta-time.php:21 templates/meta-time.php:28
+#: includes/validation/class-amp-validation-error-taxonomy.php:1867
+msgid "%s ago"
+msgstr "%s ago"
+
+#. translators: %1$s is the current directory name, and %2$s is the required
+#. directory name
+#: amp.php:223
+msgid "You appear to have installed the AMP plugin incorrectly. It is currently installed in the <code>%1$s</code> directory, but it needs to be placed in a directory named <code>%2$s</code>. Please rename the directory. This is important for WordPress plugin auto-updates."
+msgstr "You appear to have installed the AMP plugin incorrectly. It is currently installed in the <code>%1$s</code> directory, but it needs to be placed in a directory named <code>%2$s</code>. Please rename the directory. This is important for WordPress plugin auto-updates."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1437
+#: assets/js/amp-block-editor.js:17
+msgid "Embed"
+msgstr "Embed"
+
+#. Description of the plugin
+msgid "Enable AMP on your WordPress site, the WordPress way."
+msgstr "Enable AMP on your WordPress site, the WordPress way."
+
+#. Plugin URI of the plugin
+msgid "https://amp-wp.org"
+msgstr "https://amp-wp.org"
+
+#. Author URI of the plugin
+msgid "https://github.com/ampproject/amp-wp/graphs/contributors"
+msgstr "https://github.com/ampproject/amp-wp/graphs/contributors/"
+
+#: includes/widgets/class-amp-widget-categories.php:65
+msgid "Select Category"
+msgstr "Select Category"
+
+#: includes/widgets/class-amp-widget-categories.php:44
+msgid "Categories"
+msgstr "Categories"
+
+#: includes/widgets/class-amp-widget-archives.php:87
+msgid "Select Post"
+msgstr "Select Post"
+
+#: includes/widgets/class-amp-widget-archives.php:84
+msgid "Select Week"
+msgstr "Select Week"
+
+#: includes/widgets/class-amp-widget-archives.php:81
+msgid "Select Day"
+msgstr "Select Day"
+
+#: includes/widgets/class-amp-widget-archives.php:78
+msgid "Select Month"
+msgstr "Select Month"
+
+#: includes/widgets/class-amp-widget-archives.php:75
+msgid "Select Year"
+msgstr "Select Year"
+
+#: includes/class-amp-theme-support.php:829
+#: includes/widgets/class-amp-widget-archives.php:49
+msgid "Archives"
+msgstr "Archives"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:868
+msgid "URLs"
+msgstr "URLs"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1823
+#: includes/validation/class-amp-validation-error-taxonomy.php:3323
+msgid "Removed"
+msgstr "Removed"
+
+#. translators: Meta box date format
+#: includes/validation/class-amp-validated-url-post-type.php:2114
+msgid "M j, Y @ H:i"
+msgstr "M j, Y @ H:i"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1710
+#: includes/validation/class-amp-validated-url-post-type.php:2053
+#: assets/js/amp-settings.js:27
+msgid "Status"
+msgstr "Status"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:257
+msgid "Validation Error"
+msgstr "Validation error"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1512
+#: includes/validation/class-amp-validated-url-post-type.php:2122
+#: includes/validation/class-amp-validated-url-post-type.php:3097
+msgid "Recheck"
+msgstr "Recheck"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1311
+#: includes/validation/class-amp-validated-url-post-type.php:1350
+#: includes/validation/class-amp-validated-url-post-type.php:2584
+#: includes/validation/class-amp-validation-error-taxonomy.php:1943
+msgid "--"
+msgstr "--"
+
+#. translators: %s is comma-separated list of one or more plugins
+#: includes/validation/class-amp-validation-manager.php:2463
+msgid "Warning: The following plugin may be incompatible with AMP: %s."
+msgid_plural "Warning: The following plugins may be incompatible with AMP: %s."
+msgstr[0] "Warning: The following plugin may be incompatible with AMP: %s."
+msgstr[1] "Warning: The following plugins may be incompatible with AMP: %s."
+
+#: includes/validation/class-amp-validation-manager.php:2455
+#: assets/js/amp-settings.js:27
+msgid "More details"
+msgstr "More details"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:256
+msgid "No validation errors found."
+msgstr "No validation errors found."
+
+#: includes/validation/class-amp-validation-manager.php:974
+msgid "Invalid attributes:"
+msgstr "Invalid attributes:"
+
+#: includes/validation/class-amp-validation-manager.php:968
+msgid "Invalid elements:"
+msgstr "Invalid elements:"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3080
+#: includes/validation/class-amp-validation-error-taxonomy.php:1594
+#: includes/validation/class-amp-validation-error-taxonomy.php:1608
+#: assets/js/amp-settings.js:27
+msgid "Details"
+msgstr "Details"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:248
+msgid "Edit AMP Validation Error"
+msgstr "Edit AMP Validation Error"
+
+#: includes/class-amp-theme-support.php:1328
+msgid "Click here to cancel reply."
+msgstr "Click here to cancel reply."
+
+#: includes/class-amp-http.php:478
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: includes/class-amp-http.php:476
+msgid "Your comment has been posted."
+msgstr "Your comment has been posted."
+
+#. translators: %s: $post
+#: includes/amp-helper-functions.php:1348
+msgid "The %s argument is deprecated when theme supports AMP."
+msgstr "The %s argument is deprecated when theme supports AMP."
+
+#. translators: %s: required PHP version
+#: amp.php:38
+msgid "The AMP plugin requires PHP %s. Please contact your host to update your PHP version."
+msgstr "The AMP plugin requires PHP %s. Please contact your host to update your PHP version."
+
+#: includes/embeds/class-amp-crowdsignal-embed-handler.php:61
+msgid "View Poll"
+msgstr "View Poll"
+
+#: includes/embeds/class-amp-crowdsignal-embed-handler.php:59
+msgid "View Survey"
+msgstr "View Survey"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:57
+msgid "Cancel"
+msgstr "Cancel"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:55
+msgid "OK"
+msgstr "Okay"
+
+#: includes/admin/class-amp-post-meta-box.php:375
+msgid "Unavailable for an unknown reason."
+msgstr "Unavailable for an unknown reason."
+
+#: includes/admin/class-amp-post-meta-box.php:372
+msgid "A plugin or theme has disabled AMP support."
+msgstr "A plugin or theme has disabled AMP support."
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:28
+msgid "Edit Status"
+msgstr "Edit Status"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:27
+msgid "Edit"
+msgstr "Edit"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:24
+msgid "AMP:"
+msgstr "AMP:"
+
+#: src/Admin/OptionsMenu.php:142 src/Admin/OptionsMenu.php:152
+#: src/ReaderThemeLoader.php:215 assets/js/amp-block-editor.js:11
+#: assets/js/amp-block-validation.js:1
+msgid "AMP Settings"
+msgstr "AMP Settings"
+
+#: includes/admin/class-amp-post-meta-box.php:305
+msgid "Disabled"
+msgstr "Disabled"
+
+#: includes/admin/class-amp-post-meta-box.php:304
+msgid "Enabled"
+msgstr "Enabled"
+
+#: includes/admin/class-amp-post-meta-box.php:197
+msgid "Preview changes in AMP (opens in new window)"
+msgstr "Preview changes in AMP (opens in new window)"
+
+#: includes/admin/class-amp-post-meta-box.php:102
+msgid "AMP status."
+msgstr "AMP status."
+
+#: includes/admin/class-amp-template-customizer.php:728
+msgid "AMP preview enabled"
+msgstr "AMP preview enabled"
+
+#: includes/admin/class-amp-template-customizer.php:587
+msgid "Navigate to an AMP compatible page"
+msgstr "Navigate to an AMP compatible page"
+
+#: includes/admin/class-amp-template-customizer.php:586
+msgid "AMP is not available for the page currently being previewed."
+msgstr "AMP is not available for the page currently being previewed."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1601
+#: includes/validation/class-amp-validated-url-post-type.php:1632
+#: includes/validation/class-amp-validated-url-post-type.php:1654
+#: includes/validation/class-amp-validation-manager.php:2473
+msgid "Dismiss this notice."
+msgstr "Dismiss this notice."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1703
+#: includes/validation/class-amp-validation-error-taxonomy.php:1618
+msgid "Delete"
+msgstr "Delete"
+
+#: src/Admin/AnalyticsOptionsSubmenu.php:59
+#: src/Admin/AnalyticsOptionsSubmenu.php:60 assets/js/amp-settings.js:29
+msgid "Analytics"
+msgstr "Analytics"
+
+#. translators: %s is sanitizer class
+#: includes/templates/class-amp-content-sanitizer.php:83
+msgid "Sanitizer (%s) class does not exist"
+msgstr "Sanitizer (%s) class does not exist"
+
+#. translators: %s: list of tags.
+#: templates/meta-taxonomy.php:44
+msgid "Tags: %s"
+msgstr "Tags: %s"
+
+#. translators: %s: list of categories.
+#: templates/meta-taxonomy.php:27
+msgid "Categories: %s"
+msgstr "Categories: %s"
+
+#: templates/footer.php:24
+msgid "Back to top"
+msgstr "Back to top"
+
+#: includes/settings/class-amp-customizer-design-settings.php:292
+msgid "Dark"
+msgstr "Dark"
+
+#: includes/settings/class-amp-customizer-design-settings.php:291
+msgid "Light"
+msgstr "Light"
+
+#: includes/settings/class-amp-customizer-design-settings.php:168
+msgid "Color Scheme"
+msgstr "Colour Scheme"
+
+#: includes/settings/class-amp-customizer-design-settings.php:156
+msgid "Header Background & Link Color"
+msgstr "Header Background & Link Colour"
+
+#: includes/settings/class-amp-customizer-design-settings.php:142
+msgid "Header Text Color"
+msgstr "Header Text Colour"
+
+#: includes/settings/class-amp-customizer-design-settings.php:130
+msgid "Design"
+msgstr "Design"
+
+#: includes/templates/class-amp-post-template.php:316
+msgid "View Comments"
+msgstr "View Comments"
+
+#: includes/templates/class-amp-post-template.php:315
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#. Plugin Name of the plugin
+#: src/Admin/OptionsMenu.php:143 src/Admin/SiteHealth.php:134
+#: src/Admin/SiteHealth.php:175 src/Admin/SiteHealth.php:248
+#: src/Admin/SiteHealth.php:315 src/Admin/SiteHealth.php:380
+#: src/Admin/SiteHealth.php:399 includes/amp-helper-functions.php:1894
+#: includes/templates/amp-paired-browsing.php:30
+#: includes/validation/class-amp-validation-manager.php:412
+#: includes/admin/class-amp-admin-pointers.php:66
+#: includes/admin/functions.php:126 includes/admin/functions.php:127
+#: includes/admin/class-amp-template-customizer.php:246
+msgid "AMP"
+msgstr "AMP"
+
+#: back-compat/templates-v0-3/meta-taxonomy.php:8
+#: back-compat/templates-v0-3/meta-taxonomy.php:17
+#: templates/meta-taxonomy.php:21 templates/meta-taxonomy.php:35
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: 1: the template file, 2: WP_CONTENT_DIR.
+#: includes/templates/class-amp-post-template.php:446
+msgid "Path validation for template (%1$s) failed. Path cannot traverse and must be located in `%2$s`."
+msgstr "Path validation for template (%1$s) failed. Path cannot traverse and must be located in `%2$s`."
+
+#. translators: %s is key name
+#: includes/templates/class-amp-post-template.php:200
+msgid "Called for non-existent key (\"%s\")."
+msgstr "Called for non-existent key (\"%s\")."

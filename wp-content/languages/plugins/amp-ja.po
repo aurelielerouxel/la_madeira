@@ -1,0 +1,1348 @@
+# Translation of Plugins - AMP - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - AMP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-21 03:06:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - AMP - Stable (latest release)\n"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3305
+msgid "Message"
+msgstr "メッセージ"
+
+#. translators: %1$s: the fetched URL, %2$s the error message that was returned
+#: includes/sanitizers/class-amp-style-sanitizer.php:1475
+msgid "Failed to fetch: %1$s (%2$s)"
+msgstr "%1$s (%2$s) の取得に失敗しました。"
+
+#: includes/validation/class-amp-validation-manager.php:2185
+msgid "Too many redirects."
+msgstr "リダイレクトが多すぎます。"
+
+#: includes/validation/class-amp-validation-manager.php:1752
+msgid "Nonce authentication failed."
+msgstr "Nonce 認証に失敗しました。"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2985
+msgid "Invalid JSON"
+msgstr "無効な JSON"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2615
+msgid "CSS Code"
+msgstr "CSS コード"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2598
+msgid "Stylesheet URL"
+msgstr "スタイルシート URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2462
+msgid "Markup"
+msgstr "マークアップ"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2509
+msgid "Expand/collapse"
+msgstr "展開する/折りたたむ"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2461
+msgid "Included"
+msgstr "同梱"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2460
+msgid "Priority"
+msgstr "優先度"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2459
+msgid "Percent"
+msgstr "パーセント"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2456
+msgid "Final"
+msgstr "最終"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2454
+msgid "Minified"
+msgstr "圧縮 (minify)"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2451
+msgid "Original"
+msgstr "オリジナル"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2449
+msgid "Order"
+msgstr "順序"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1778
+msgid "Syntax error"
+msgstr "構文エラー"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1772
+msgid "Invalid or malformed JSON"
+msgstr "無効または不正な形式の JSON"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2366
+#: includes/validation/class-amp-validated-url-post-type.php:2375
+#: includes/validation/class-amp-validated-url-post-type.php:2421
+#: includes/validation/class-amp-validated-url-post-type.php:2452
+#: includes/validation/class-amp-validated-url-post-type.php:2457
+msgctxt "abbreviation for bytes"
+msgid "B"
+msgstr "B"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2366
+#: includes/validation/class-amp-validated-url-post-type.php:2375
+#: includes/validation/class-amp-validated-url-post-type.php:2421
+#: includes/validation/class-amp-validated-url-post-type.php:2452
+#: includes/validation/class-amp-validated-url-post-type.php:2457
+msgid "bytes"
+msgstr "バイト"
+
+#: includes/templates/amp-paired-browsing.php:57
+msgid "Go Back"
+msgstr "戻る"
+
+#: includes/templates/amp-paired-browsing.php:54
+msgid "Exit"
+msgstr "終了"
+
+#: includes/templates/amp-paired-browsing.php:19
+msgid "Loading&#8230;"
+msgstr "読み込み中&#8230;"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2062
+msgid "Stylesheets"
+msgstr "スタイルシート"
+
+#: src/Admin/SiteHealth.php:261
+msgid "Learn more about ICU"
+msgstr "ICU についてさらに詳しく"
+
+#: src/Admin/SiteHealth.php:145
+msgid "Persistent object caching is not enabled"
+msgstr "永続的なオブジェクトキャッシュは有効化されていません"
+
+#: src/Admin/SiteHealth.php:144
+msgid "Persistent object caching is enabled"
+msgstr "永続的なオブジェクトキャッシュは有効化されています"
+
+#. translators: The accessibility text.
+#. translators: accessibility text
+#: src/Admin/SiteHealth.php:121 src/Admin/SiteHealth.php:184
+#: src/Admin/SiteHealth.php:263 assets/js/amp-block-editor.js:3
+msgid "(opens in a new tab)"
+msgstr "(新しいタブで開く)"
+
+#: src/Admin/SiteHealth.php:119
+msgid "Learn more about persistent object caching"
+msgstr "永続的なオブジェクトキャッシュについてさらに詳しく"
+
+#: src/Admin/SiteHealth.php:310
+msgid "Transient caching of parsed stylesheets is enabled"
+msgstr "パースされたスタイルシートの transient キャッシュは有効化されています"
+
+#: src/Admin/SiteHealth.php:306
+msgid "Transient caching of parsed stylesheets is disabled"
+msgstr "パースされたスタイルシートの transient キャッシュは無効化されています"
+
+#: src/Admin/SiteHealth.php:302
+msgid "Transient caching of parsed stylesheets is not used due to external object cache"
+msgstr "外部オブジェクトキャッシュが使われているためパースされたスタイルシートの transient キャッシュは使われません"
+
+#: includes/validation/class-amp-validation-manager.php:2349
+msgid "Failed to fetch URL to validate."
+msgstr "検証するURLを取得できませんでした。"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1181
+msgid "Invalid Markup"
+msgstr "無効なマークアップ"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3252
+msgid "CSS property"
+msgstr "CSS プロパティ"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2960
+msgid "Unrecognized CSS"
+msgstr "認識できないCSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2918
+msgid "Invalid script"
+msgstr "無効なスクリプト"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2962
+msgid "CSS parse error"
+msgstr "CSSのパースエラー"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2987
+msgid "Illegal CSS !important property"
+msgstr "不正な CSS の !important 規則"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2967
+msgid "Illegal CSS property"
+msgstr "不正な CSS プロパティ"
+
+#. translators: %s is the byte count
+#: includes/validation/class-amp-validation-error-taxonomy.php:2660
+msgid "%s byte"
+msgid_plural "%s bytes"
+msgstr[0] "%sバイト"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3250
+msgid "Parent element"
+msgstr "親要素"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3247
+msgid "Node name"
+msgstr "ノード"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3243
+msgid "Attribute name"
+msgstr "属性"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3245
+msgid "Element name"
+msgstr "要素"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3235
+msgid "Code"
+msgstr "コード"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2956
+msgid "Duplicate element"
+msgstr "重複する属性"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2550
+#: assets/js/amp-settings.js:27
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2558
+msgid "Core"
+msgstr "コア"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2554
+msgid "Must-Use Plugin"
+msgstr "MU プラグイン"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2546
+msgid "Theme"
+msgstr "テーマ"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2529
+msgid "Action"
+msgstr "アクション"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2527
+msgid "Filter"
+msgstr "フィルター"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2517
+msgid "Function"
+msgstr "関数"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2511
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2508
+msgid "Block Name"
+msgstr "ブロック名"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2482
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2479
+msgid "Post ID"
+msgstr "投稿 ID"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3256
+msgid "Text content"
+msgstr "テキストのコンテンツ"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2688
+msgid "Custom HTML"
+msgstr "カスタム HTML"
+
+#. translators: %s error code
+#: includes/validation/class-amp-validation-error-taxonomy.php:3221
+msgid "Unknown error (%s)"
+msgstr "不明なエラー (%s)"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2940
+msgid "Invalid processing instruction"
+msgstr "無効な処理命令"
+
+#. translators: %s: number of sources.
+#: includes/validation/class-amp-validation-error-taxonomy.php:2421
+msgid "Source stack (%s)"
+msgid_plural "Source stack (%s)"
+msgstr[0] "ソースのスタック (%s)"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2520
+msgid "Location"
+msgstr "場所"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2476
+msgid "Name"
+msgstr "名称"
+
+#. translators: %d is the hook priority
+#: includes/validation/class-amp-validation-error-taxonomy.php:2583
+msgid "(priority %d)"
+msgstr "(優先順位 %d)"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2023
+msgid "Information"
+msgstr "情報"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1677
+msgid "HTML element"
+msgstr "HTML 要素"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1475
+msgid "Invalid CSS"
+msgstr "無効な CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1468
+msgid "Invalid JS"
+msgstr "無効な JS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1461
+msgid "Invalid HTML attributes"
+msgstr "無効な HTML 属性"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1454
+msgid "Invalid HTML elements"
+msgstr "無効な HTML 要素"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1466
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1964
+msgid "Misc"
+msgstr "その他"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1448
+msgid "All types of invalid markup"
+msgstr "すべての無効なマークアップ"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1219
+#: includes/validation/class-amp-validated-url-post-type.php:1223
+#: includes/validation/class-amp-validation-error-taxonomy.php:857
+#: includes/validation/class-amp-validation-error-taxonomy.php:861
+msgid "Context"
+msgstr "コンテキスト"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1826
+#: includes/validation/class-amp-validation-error-taxonomy.php:3326
+msgid "Kept"
+msgstr "キープ"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1473
+msgid "With invalid CSS"
+msgstr "CSS が無効です"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1466
+msgid "With invalid JS"
+msgstr "JS が無効です"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1459
+msgid "With invalid HTML attributes"
+msgstr "HTML 属性が無効です"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1452
+msgid "With invalid HTML elements"
+msgstr "HTML 要素が無効です"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1368
+msgid "Filter by markup status"
+msgstr "マークアップのステータスでフィルターする"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1462
+msgid "Content"
+msgstr "コンテンツ"
+
+#. translators: %s is the hook name
+#: includes/validation/class-amp-validated-url-post-type.php:1472
+msgid "Hook: %s"
+msgstr "フック: %s"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3005
+msgid "AMP Validated URL"
+msgstr "AMP 検証済み URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1172
+#: includes/validation/class-amp-validated-url-post-type.php:1176
+#: includes/validation/class-amp-validated-url-post-type.php:1231
+#: includes/validation/class-amp-validated-url-post-type.php:1235
+#: includes/validation/class-amp-validation-error-taxonomy.php:846
+#: includes/validation/class-amp-validation-error-taxonomy.php:850
+#: includes/validation/class-amp-validation-error-taxonomy.php:1819
+msgid "Markup Status"
+msgstr "マークアップの状態"
+
+#: includes/validation/class-amp-validated-url-post-type.php:655
+msgid "All markup valid"
+msgstr "全てのマークアップが有効"
+
+#: includes/validation/class-amp-validated-url-post-type.php:647
+msgid "Invalid markup removed"
+msgstr "無効なマークアップが削除されました"
+
+#: includes/validation/class-amp-validated-url-post-type.php:623
+msgid "Invalid markup kept"
+msgstr "無効なマークアップが保持されています"
+
+#: includes/options/class-amp-options-manager.php:509
+msgid "https://wordpress.org/support/article/why-should-i-use-https/"
+msgstr "https://wordpress.org/support/article/why-should-i-use-https/"
+
+#. translators: %s: "Why should I use HTTPS" support URL
+#: includes/options/class-amp-options-manager.php:508
+msgid "Your site is not being fully served over a secure connection (using HTTPS).<br>As some AMP functionality requires a secure connection, you might experience degraded performance or broken components.<br><a href=\"%s\">More details</a>"
+msgstr "サイトの配信に、（HTTPS 経由の）安全な接続が使用されていないケースがあります。<br>AMP には安全な接続が必須であるため、パフォーマンスの低下や表示の乱れが生じる可能性があります。<br><a href=\"%s\">詳細</a>"
+
+#: includes/deprecated.php:276
+msgid "Your server currently has the Xdebug PHP extension loaded. This can cause some of the AMP plugin's processes to timeout depending on your system resources and configuration. Please deactivate Xdebug for the best experience."
+msgstr "現在、サーバーに Xdebug の PHP 拡張機能が読み込まれています。システムのリソースや設定によっては、これが原因で AMP プラグインの一部のプロセスがタイムアウトになる可能性があります。ユーザー エクスペリエンスを最大限に高めるには、Xdebug の使用を停止してください。"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2789
+msgid "Remove"
+msgstr "削除"
+
+#. translators: Admin screen title. %s: Admin screen name
+#: includes/validation/class-amp-validated-url-post-type.php:3008
+msgid "%s &#8212; WordPress"
+msgstr "%s &#8212; WordPress"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:244
+msgid "Please contact the developer of this form processor to improve this message."
+msgstr "このフォーム処理機能の開発者に連絡して、このメッセージを改善してください。"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:242
+msgid "Even though the server responded OK, it is possible the submission was not processed."
+msgstr "サーバーのレスポンスが OK でも、送信が処理されていない場合があります。"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:241
+msgid "It appears your submission was successful."
+msgstr "送信は成功したようです。"
+
+#. translators: %1$s: HTTP status text, %2$s: HTTP status code
+#: includes/sanitizers/class-amp-form-sanitizer.php:239
+msgid "The server responded with %1$s (code %2$s)."
+msgstr "サーバーから「%1$s」というレスポンスがありました（コード: %2$s）。"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:237
+msgid "Your submission failed."
+msgstr "送信は失敗しました。"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:227
+msgid "Submitting…"
+msgstr "送信しています…"
+
+#. translators: %s: CSS selector for admin bar element
+#: includes/sanitizers/class-amp-style-sanitizer.php:2903
+msgid "Admin bar (%s) was removed to preserve AMP validity due to excessive CSS."
+msgstr "CSS の定義が過剰であり、AMP の効果を維持するため管理バー（%s）を削除しました。"
+
+#. translators: %s: the fetched URL
+#: includes/sanitizers/class-amp-style-sanitizer.php:1482
+msgid "Failed to fetch: %s"
+msgstr "取得できませんでした: %s"
+
+#: includes/class-amp-http.php:382
+msgid "Redirecting…"
+msgstr "リダイレクトしています…"
+
+#: includes/templates/amp-paired-browsing.php:29
+msgid "Non-AMP"
+msgstr "非 AMP"
+
+#: amp.php:168 amp.php:188
+msgid "AMP plugin unable to initialize."
+msgstr "AMP プラグインを初期化できません。"
+
+#. translators: %s is list of missing extensions
+#: amp.php:143
+msgid "The following PHP function is missing: %s. Please contact your host to finish installation."
+msgid_plural "The following PHP functions are missing: %s. Please contact your host to finish installation."
+msgstr[0] "次の PHP 関数が見つかりません: %s。ホストの管理担当者に連絡してインストールを完了してください。"
+
+#. translators: %s is list of missing extensions
+#: amp.php:128
+msgid "The following PHP class is missing: %s. Please contact your host to finish installation."
+msgid_plural "The following PHP classes are missing: %s. Please contact your host to finish installation."
+msgstr[0] "次の PHP クラスが見つかりません: %s。ホストの管理担当者に連絡してインストールを完了してください。"
+
+#. translators: %s is list of missing extensions
+#: amp.php:113
+msgid "The following PHP extension is missing: %s. Please contact your host to finish installation."
+msgid_plural "The following PHP extensions are missing: %s. Please contact your host to finish installation."
+msgstr[0] "次の PHP 拡張機能が見つかりません: %s。ホストの管理担当者に連絡してインストールを完了してください。"
+
+#. translators: %s: WP_Service_Worker_Cache_Registry.
+#: includes/class-amp-service-worker.php:89
+msgid "Please update to PWA v0.2. Expected argument to be %s."
+msgstr "PWA v0.2に更新してください。期待される引数は %s です。"
+
+#. translators: 1: AMP_Comment_Walker. 2: AMP_Comments_Sanitizer.
+#: includes/class-amp-comment-walker.php:11
+msgid "%1$s functionality has been moved to %2$s."
+msgstr "%1$s の機能は %2$s に移動しました。"
+
+#. translators: localized date and time format, see http://php.net/date
+#: includes/validation/class-amp-validation-error-taxonomy.php:1863
+msgid "F j, Y g:i a"
+msgstr "Y年n月j日 g:i A"
+
+#. translators: %s is error code
+#: includes/validation/class-amp-validation-manager.php:2413
+msgid "URL validation failed. Error code: %s."
+msgstr "URL の検証に失敗しました。エラーコード: %s。"
+
+#: includes/sanitizers/class-amp-style-sanitizer.php:1490
+msgid "Response did not contain the expected text/css content type."
+msgstr "レスポンスには、適切なコンテンツ タイプ text/css が含まれていませんでした。"
+
+#. translators: 1: amp_add_amphtml_link(). 2: amp-helper-functions.php
+#: includes/amp-frontend-actions.php:16
+msgid "Use %1$s function which is already included from %2$s"
+msgstr "すでに含まれている %1$s 関数（%2$s）を使用します"
+
+#. translators: %s: the URL to the edit post screen.
+#: includes/class-amp-theme-support.php:808
+#: includes/class-amp-theme-support.php:817
+msgid "Currently disabled at the <a href=\"%s\">page level</a>."
+msgstr "現在、<a href=\"%s\">ページ単位</a>では無効です。"
+
+#. translators: 1: embed handler. 2: AMP_Embed_Handler
+#: includes/templates/class-amp-content.php:179
+#: includes/class-amp-theme-support.php:1090
+msgid "Embed Handler (%1$s) must extend `%2$s`"
+msgstr "埋め込みハンドラ（%1$s）で「%2$s」を拡張する必要があります"
+
+#. translators: 1: sanitizer class. 2: AMP_Base_Sanitizer
+#: includes/templates/class-amp-content-sanitizer.php:100
+msgid "Sanitizer (%1$s) must extend `%2$s`"
+msgstr "サニタイザ（%1$s）で「%2$s」を拡張する必要があります"
+
+#: includes/class-amp-service-worker.php:320
+msgid "Installing service worker..."
+msgstr "Service Worker をインストールしています..."
+
+#: includes/class-amp-service-worker.php:305
+#: includes/class-amp-service-worker.php:317
+msgid "Service Worker Installation"
+msgstr "Service Worker のインストール"
+
+#: includes/class-amp-service-worker.php:304
+msgid "No service workers registered for the requested scope."
+msgstr "リクエストされたスコープで、Service Worker は登録されていません。"
+
+#: includes/class-amp-service-worker.php:131
+#: includes/class-amp-service-worker.php:164
+msgid "Please update to PWA v0.2. Expected argument to be WP_Service_Worker_Scripts."
+msgstr "PWA v0.2 に更新してください。引数には WP_Service_Worker_Scripts を指定します。"
+
+#. Author of the plugin
+msgid "AMP Project Contributors"
+msgstr "AMP プロジェクト貢献者"
+
+#: includes/options/class-amp-options-manager.php:478
+msgid "PHP-CSS-Parser is not available so CSS processing will not be available."
+msgstr "PHP-CSS-Parser を利用できないため、CSS を処理できません。"
+
+#. translators: %s: path to the conflicting library
+#: includes/options/class-amp-options-manager.php:469
+msgid "A conflicting version of PHP-CSS-Parser appears to be installed by another plugin or theme (located in %s). Because of this, CSS processing will be limited, and tree shaking will not be available."
+msgstr "PHP-CSS-Parser の競合バージョンが別のプラグインまたはテーマによってインストールされているようです（パス: %s）。このため CSS の処理に制限があり、ツリー シェイキングを実施できません。"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2354
+msgid "AMP CSS processing is limited because a conflicting version of PHP-CSS-Parser has been loaded by another plugin or theme. Tree shaking is not available."
+msgstr "警告: PHP-CSS-Parser の競合するバージョンが別のプラグインまたはテーマによって読み込まれているため、AMP CSS の処理が制限されています。ツリー シェイキングを実施できません。"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:247
+msgid "All AMP Validation Errors"
+msgstr "すべての AMP バリデーション エラー"
+
+#: src/Admin/OptionsMenu.php:117 src/Admin/OptionsMenu.php:153
+#: includes/validation/class-amp-validation-manager.php:473
+msgid "Settings"
+msgstr "設定"
+
+#. translators: %s: the human-readable time difference.
+#: back-compat/templates-v0-3/meta-time.php:21 templates/meta-time.php:28
+#: includes/validation/class-amp-validation-error-taxonomy.php:1867
+msgid "%s ago"
+msgstr "%s前"
+
+#: src/Admin/PluginActivationNotice.php:78
+msgid "Welcome to AMP for WordPress"
+msgstr "AMP for WordPress へようこそ"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3090
+msgid "View"
+msgstr "表示"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2126
+msgid "Preview Changes"
+msgstr "変更をプレビュー"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2785
+msgid "Search Errors"
+msgstr "エラーを検索"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1188
+#: includes/validation/class-amp-validated-url-post-type.php:1201
+#: includes/validation/class-amp-validation-error-taxonomy.php:3303
+msgid "URL"
+msgstr "URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1182
+#: includes/validation/class-amp-validated-url-post-type.php:1199
+#: includes/validation/class-amp-validated-url-post-type.php:1228
+#: includes/validation/class-amp-validated-url-post-type.php:2463
+#: includes/validation/class-amp-validated-url-post-type.php:2610
+#: includes/validation/class-amp-validation-error-taxonomy.php:2523
+#: includes/validation/class-amp-validation-error-taxonomy.php:3260
+msgid "Sources"
+msgstr "ソース"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1215
+#: includes/validation/class-amp-validation-error-taxonomy.php:843
+#: includes/validation/class-amp-validation-manager.php:504
+msgid "Error"
+msgstr "エラー"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1401
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1401
+msgid "Must-Use Plugins"
+msgstr "MU プラグイン"
+
+#. Description of the plugin
+msgid "Enable AMP on your WordPress site, the WordPress way."
+msgstr "WordPress サイトで AMP を有効化します。WordPress の方式で。"
+
+#. Plugin URI of the plugin
+msgid "https://amp-wp.org"
+msgstr "https://amp-wp.org"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1508
+#: includes/validation/class-amp-validated-url-post-type.php:2238
+#: includes/validation/class-amp-validated-url-post-type.php:3113
+msgid "Forget"
+msgstr "忘れる"
+
+#. translators: %s is the guessed theme as the source for the error
+#: includes/validation/class-amp-validated-url-post-type.php:1489
+msgid "%s (?)"
+msgstr "%s (?)"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1428
+msgid "Other"
+msgstr "その他"
+
+#: includes/class-amp-theme-support.php:840
+msgid "Search"
+msgstr "検索"
+
+#: includes/class-amp-theme-support.php:843
+msgid "Not Found (404)"
+msgstr "見つかりません (404)"
+
+#: includes/class-amp-theme-support.php:836 assets/js/amp-block-editor.js:17
+msgid "Date"
+msgstr "日付"
+
+#: includes/class-amp-theme-support.php:813
+msgid "Blog"
+msgstr "ブログ"
+
+#: includes/class-amp-theme-support.php:803
+#: includes/class-amp-theme-support.php:821
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: includes/amp-helper-functions.php:1903
+#: includes/validation/class-amp-validation-manager.php:435
+msgid "View AMP version"
+msgstr "AMP 版を表示"
+
+#: includes/validation/class-amp-validation-manager.php:701
+msgid "AMP validity status"
+msgstr "AMP 検証ステータス"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2934
+#: includes/validation/class-amp-validation-error-taxonomy.php:3299
+msgid "Invalid attribute"
+msgstr "無効な属性"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2927
+msgid "Invalid element"
+msgstr "無効な要素"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2707
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2706
+msgid "HTML Attribute"
+msgstr "HTML 属性"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2705
+msgid "HTML Element"
+msgstr "HTML 要素"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1856
+msgid "n/a"
+msgstr "なし"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1683
+#: includes/validation/class-amp-validation-error-taxonomy.php:2708
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1674
+msgid "JS"
+msgstr "JS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1593
+#: includes/validation/class-amp-validation-error-taxonomy.php:1736
+msgid "Toggle error details"
+msgstr "エラー表示を切り替え"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1492
+msgid "Clear Empty"
+msgstr "空白をクリア"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1370
+msgid "All statuses"
+msgstr "すべてのステータス"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:249
+msgid "Update AMP Validation Error"
+msgstr "AMP バリデーションエラーの更新"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:259
+msgid "Validation errors list"
+msgstr "バリデーションエラーリスト"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:245
+msgctxt "taxonomy singular name"
+msgid "AMP Validation Error"
+msgstr "AMP バリデーションエラー"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:246
+msgid "Search AMP Validation Errors"
+msgstr "AMP バリデーションエラーを検索"
+
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:368
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:394
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:410
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:426
+#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:155
+msgid "collapse child menu"
+msgstr "サブメニューを閉じる"
+
+#: includes/class-amp-theme-support.php:798
+msgid "Singular"
+msgstr "個別"
+
+#: includes/class-amp-theme-support.php:571
+msgid "No WP_Query available."
+msgstr "利用可能な WP_Query がありません。"
+
+#: includes/amp-helper-functions.php:1903
+#: includes/validation/class-amp-validation-manager.php:435
+msgid "View non-AMP version"
+msgstr "非 AMP 版を表示"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2946
+msgid "Excessive CSS"
+msgstr "過剰な CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2867
+msgid "You do not have authorization."
+msgstr "権限がありません。"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2862
+msgid "The link you followed has expired."
+msgstr "リンクは期限切れです。"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1445
+msgid "Filter by error type"
+msgstr "エラータイプで絞り込む"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2242
+msgid "Update"
+msgstr "更新"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2213
+msgid "View User"
+msgstr "ユーザーを表示"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2211
+msgid "Edit User"
+msgstr "ユーザーを編集"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2196
+msgid "View URL"
+msgstr "URL を表示"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2151
+msgid "Please recheck."
+msgstr "再確認してください。"
+
+#. translators: 1: number of errors being displayed. 2: total number of errors
+#. found.
+#: includes/sanitizers/class-amp-iframe-sanitizer.php:186
+#: assets/js/amp-validated-url-post-edit-screen.js:3
+msgid "Show all"
+msgstr "すべて表示"
+
+#. translators: %s is count of validation errors updated
+#: includes/validation/class-amp-validated-url-post-type.php:1645
+msgid "Updated %s validation error."
+msgid_plural "Updated %s validation errors."
+msgstr[0] "%s件の検証エラーを更新しました。"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1194
+#: includes/validation/class-amp-validated-url-post-type.php:1200
+msgid "Last Checked"
+msgstr "最終チェック"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1437
+#: assets/js/amp-block-editor.js:17
+msgid "Embed"
+msgstr "埋め込む"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1216
+#: includes/validation/class-amp-validation-error-taxonomy.php:866
+#: includes/validation/class-amp-validation-error-taxonomy.php:2514
+#: includes/validation/class-amp-validation-error-taxonomy.php:3258
+msgid "Type"
+msgstr "タイプ"
+
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:367
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:393
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:409
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:425
+#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:152
+msgid "expand child menu"
+msgstr "サブメニューを展開"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2750
+msgid "Invalid taxonomy."
+msgstr "不正なタクソノミーです。"
+
+#: includes/class-amp-theme-support.php:832
+msgid "Author"
+msgstr "投稿者"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:253
+msgid "Learn More"
+msgstr "詳細を読む"
+
+#: includes/amp-helper-functions.php:798
+msgid "There is no amphtml version available for this URL."
+msgstr "この URL で利用できる AMP HTML バージョンはありません。"
+
+#. translators: 1: @import. 2: wp_enqueue_style(). 3: font CDN URL.
+#: includes/sanitizers/class-amp-style-sanitizer.php:1664
+msgid "It is not a best practice to use %1$s to load font CDN stylesheets. Please use %2$s to enqueue %3$s as its own separate script."
+msgstr "%1$s を使用して、CDN からフォントのスタイルシートを読み込むことは最良の方法とは言えません。%2$s を使用し、独自の個別スクリプトとして %3$s をキューに追加してください。"
+
+#. translators: %s: amp_supportable_templates
+#: includes/class-amp-theme-support.php:737
+msgid "Did not expect there to be more than one matching template. Did you filter %s to not honor the template hierarchy?"
+msgstr "複数のテンプレートが一致することは想定していませんでした。テンプレートの階層を無視するように、%s にフィルタを適用しましたか？"
+
+#. translators: %s: the supportable template ID.
+#: includes/class-amp-theme-support.php:600
+msgid "Supportable template \"%s\" does not have a callable callback."
+msgstr "サポート対象のテンプレート \"%s\" には、呼び出しできるコールバックがありません。"
+
+#: includes/validation/class-amp-validation-manager.php:2375
+msgid "An internal server error occurred when fetching the URL for validation."
+msgstr "検証する URL の取得中に内部サーバーエラーが発生しました。"
+
+#: includes/validation/class-amp-validation-manager.php:2367
+msgid "The fetched URL was not found. It may have been deleted. If so, you can trash this."
+msgstr "取得しようとした URL が見つかりませんでした。すでに削除されている可能性があります。その場合はこれを削除できます。"
+
+#: includes/validation/class-amp-validation-manager.php:960
+#: assets/js/amp-block-validation.js:5
+msgid "Review issues"
+msgstr "問題を確認"
+
+#: includes/validation/class-amp-validation-manager.php:941
+msgid "There is content which fails AMP validation."
+msgstr "AMP 検証の失敗につながるコンテンツがあります。"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1270
+msgid "View Validated URLs"
+msgstr "検証済みの URL を表示"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:867
+msgid "Last Seen"
+msgstr "最後の表示"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:302
+msgid "Method must be passed a term slug (string) or error attributes (array)."
+msgstr "メソッドにはタームのスラッグ（文字列）またはエラーの属性（配列）を渡す必要があります。"
+
+#. translators: Tab heading when selecting from the most used terms
+#: includes/validation/class-amp-validation-error-taxonomy.php:261
+msgid "Most Used Validation Errors"
+msgstr "最も使用されているバリデーション エラー"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:258
+msgid "Validation errors navigation"
+msgstr "バリデーション エラーのリスト内の移動"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:255
+msgid "New Validation Error Hash"
+msgstr "新しいバリデーション エラーのハッシュ値"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:254
+msgid "Add New Validation Error"
+msgstr "新しいバリデーション エラーを追加"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:253
+msgid "View Validation Error"
+msgstr "バリデーション エラーを表示"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:252
+msgid "Frequent Validation Errors"
+msgstr "よく発生するバリデーション エラー"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:251
+msgid "Back to AMP Validation Errors"
+msgstr "AMP バリデーション エラーに戻る"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:250
+#: includes/validation/class-amp-validation-error-taxonomy.php:1632
+msgid "Error Index"
+msgstr "エラーのインデックス"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:244
+msgctxt "taxonomy general name"
+msgid "AMP Validation Error Index"
+msgstr "AMP バリデーション エラーのインデックス"
+
+#. translators: %s is the number of posts restored from trash.
+#: includes/validation/class-amp-validated-url-post-type.php:3171
+msgid "%s validated URL unforgotten."
+msgid_plural "%s validated URLs unforgotten."
+msgstr[0] "%s 個の検証済み URL が復元されました。"
+
+#. translators: %s is the number of posts forgotten
+#: includes/validation/class-amp-validated-url-post-type.php:3157
+#: includes/validation/class-amp-validated-url-post-type.php:3164
+msgid "%s validated URL forgotten."
+msgid_plural "%s validated URLs forgotten."
+msgstr[0] "%s 個の検証済み URL が完全に削除されました。"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3136
+msgid "Forgotten"
+msgstr "完全に削除されました"
+
+#. translators: %s: post title
+#: includes/validation/class-amp-validated-url-post-type.php:3112
+msgid "Forget &#8220;%s&#8221;"
+msgstr "「%s」を完全に削除"
+
+#. translators: %s is the validation error count
+#: includes/validation/class-amp-validated-url-post-type.php:2958
+msgid "%s URL w/ new AMP errors"
+msgid_plural "%s URLs w/ new AMP errors"
+msgstr[0] "%s 個の URL に新しい AMP エラーがあります"
+
+#. translators: %s: The date this was published
+#: includes/validation/class-amp-validated-url-post-type.php:2112
+msgid "Last checked: <b>%s</b>"
+msgstr "最終確認日: <b>%s</b>"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1777
+#: includes/validation/class-amp-validated-url-post-type.php:1906
+msgid "You do not have permissions to validate an AMP URL. Did you get logged out?"
+msgstr "AMP URL を検証する権限がありません。ログアウトされましたか？"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1274
+#: includes/validation/class-amp-validated-url-post-type.php:2138
+msgid "Stale results"
+msgstr "最新でない結果"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1224
+#: includes/validation/class-amp-validation-error-taxonomy.php:862
+msgid "The parent element of where the error occurred."
+msgstr "エラーが発生した場所の親要素。"
+
+#: includes/validation/class-amp-validated-url-post-type.php:454
+msgid "View Error Index"
+msgstr "エラーのインデックスを表示"
+
+#: includes/validation/class-amp-validated-url-post-type.php:170
+msgid "Search validated URLs"
+msgstr "検証済みの URL を検索"
+
+#: includes/validation/class-amp-validated-url-post-type.php:169
+msgid "No forgotten validated URLs"
+msgstr "完全に削除された検証済み URL はありません"
+
+#: includes/validation/class-amp-validated-url-post-type.php:168
+msgid "No validated URLs found"
+msgstr "検証済み URL が見つかりません"
+
+#: includes/validation/class-amp-validated-url-post-type.php:167
+msgid "Validated URL"
+msgstr "検証済み URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:166
+msgid "Validated URLs"
+msgstr "検証済み URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:165
+msgctxt "post type general name"
+msgid "AMP Validated URLs"
+msgstr "AMP 検証済み URL"
+
+#: includes/admin/class-amp-admin-pointers.php:68
+msgid "You can now reuse your theme's templates and styles in AMP responses, in both &#8220;Transitional&#8221; and &#8220;Standard&#8221; modes."
+msgstr "AMP のレスポンスでテーマのテンプレートとスタイルを再利用できるようになりました。「Transitional」と「標準」のモードに対応しています。"
+
+#: includes/admin/class-amp-admin-pointers.php:67
+msgid "New AMP Template Modes"
+msgstr "新しい AMP テンプレート モード"
+
+#. translators: %1$s is the current directory name, and %2$s is the required
+#. directory name
+#: amp.php:223
+msgid "You appear to have installed the AMP plugin incorrectly. It is currently installed in the <code>%1$s</code> directory, but it needs to be placed in a directory named <code>%2$s</code>. Please rename the directory. This is important for WordPress plugin auto-updates."
+msgstr "AMP プラグインが正しくインストールされていないようです。現在は「<code>%1$s</code>」ディレクトリにインストールされていますが、正しくは「<code>%2$s</code>」という名前のディレクトリに配置する必要があります。このディレクトリの名前を変更してください。適切にインストールしておかないと、WordPress のプラグインを自動アップデートできません。"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1225
+msgid "Apply Filter"
+msgstr "フィルターを適用"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2181
+#: includes/admin/class-amp-post-meta-box.php:448
+msgid "AMP enabled"
+msgstr "AMP: 有効"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2183
+msgid "AMP disabled"
+msgstr "AMP: 無効"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2078
+#: includes/validation/class-amp-validation-error-taxonomy.php:2093
+msgid "Invalid markup"
+msgstr "無効なマークアップ"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3240
+msgid "Element attributes"
+msgstr "要素の属性"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1680
+msgid "HTML attribute"
+msgstr "HTML 属性"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1710
+#: includes/validation/class-amp-validated-url-post-type.php:2053
+#: assets/js/amp-settings.js:27
+msgid "Status"
+msgstr "ステータス"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3080
+#: includes/validation/class-amp-validation-error-taxonomy.php:1594
+#: includes/validation/class-amp-validation-error-taxonomy.php:1608
+#: assets/js/amp-settings.js:27
+msgid "Details"
+msgstr "詳細"
+
+#: includes/widgets/class-amp-widget-archives.php:84
+msgid "Select Week"
+msgstr "週を選択"
+
+#: includes/widgets/class-amp-widget-archives.php:81
+msgid "Select Day"
+msgstr "日を選択"
+
+#: includes/widgets/class-amp-widget-archives.php:87
+msgid "Select Post"
+msgstr "投稿を選択"
+
+#: includes/widgets/class-amp-widget-archives.php:78
+msgid "Select Month"
+msgstr "月を選択"
+
+#: includes/widgets/class-amp-widget-archives.php:75
+msgid "Select Year"
+msgstr "年を選択"
+
+#: includes/class-amp-theme-support.php:829
+#: includes/widgets/class-amp-widget-archives.php:49
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:257
+msgid "Validation Error"
+msgstr "バリデーションエラー"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1512
+#: includes/validation/class-amp-validated-url-post-type.php:2122
+#: includes/validation/class-amp-validated-url-post-type.php:3097
+msgid "Recheck"
+msgstr "再検証"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1311
+#: includes/validation/class-amp-validated-url-post-type.php:1350
+#: includes/validation/class-amp-validated-url-post-type.php:2584
+#: includes/validation/class-amp-validation-error-taxonomy.php:1943
+msgid "--"
+msgstr "--"
+
+#. translators: Meta box date format
+#: includes/validation/class-amp-validated-url-post-type.php:2114
+msgid "M j, Y @ H:i"
+msgstr "Y年n月j日 @ H:i"
+
+#. Author URI of the plugin
+msgid "https://github.com/ampproject/amp-wp/graphs/contributors"
+msgstr "https://github.com/ampproject/amp-wp/graphs/contributors"
+
+#: includes/validation/class-amp-validation-manager.php:2455
+#: assets/js/amp-settings.js:27
+msgid "More details"
+msgstr "さらなる詳細情報"
+
+#: includes/validation/class-amp-validation-manager.php:974
+msgid "Invalid attributes:"
+msgstr "無効な属性:"
+
+#: includes/validation/class-amp-validation-manager.php:968
+msgid "Invalid elements:"
+msgstr "無効な要素:"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:256
+msgid "No validation errors found."
+msgstr "バリデーションエラーは見つかりませんでした。"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:248
+msgid "Edit AMP Validation Error"
+msgstr "AMP バリデーションエラーを編集"
+
+#: includes/class-amp-http.php:478
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: includes/widgets/class-amp-widget-categories.php:65
+msgid "Select Category"
+msgstr "カテゴリーを選択"
+
+#: includes/class-amp-theme-support.php:1328
+msgid "Click here to cancel reply."
+msgstr "返信をキャンセルする。"
+
+#: includes/class-amp-http.php:476
+msgid "Your comment has been posted."
+msgstr "コメントが投稿されました。"
+
+#. translators: %s: $post
+#: includes/amp-helper-functions.php:1348
+msgid "The %s argument is deprecated when theme supports AMP."
+msgstr "テーマが AMP をサポートしている場合、引数 %s の使用は推奨されません。"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:868
+msgid "URLs"
+msgstr "URL"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1823
+#: includes/validation/class-amp-validation-error-taxonomy.php:3323
+msgid "Removed"
+msgstr "削除済み"
+
+#. translators: %s: required PHP version
+#: amp.php:38
+msgid "The AMP plugin requires PHP %s. Please contact your host to update your PHP version."
+msgstr "AMP プラグインを使用するには PHP %s が必要です。PHP のバージョンのアップデートをご利用のホスティングサービスに依頼してください。"
+
+#: includes/widgets/class-amp-widget-categories.php:44
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: includes/embeds/class-amp-crowdsignal-embed-handler.php:59
+msgid "View Survey"
+msgstr "調査を表示"
+
+#: includes/embeds/class-amp-crowdsignal-embed-handler.php:61
+msgid "View Poll"
+msgstr "投票を表示"
+
+#: src/Admin/OptionsMenu.php:142 src/Admin/OptionsMenu.php:152
+#: src/ReaderThemeLoader.php:215 assets/js/amp-block-editor.js:11
+#: assets/js/amp-block-validation.js:1
+msgid "AMP Settings"
+msgstr "AMP 設定"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:24
+msgid "AMP:"
+msgstr "AMP:"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:27
+msgid "Edit"
+msgstr "編集"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:55
+msgid "OK"
+msgstr "OK"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:57
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/admin/class-amp-post-meta-box.php:305
+msgid "Disabled"
+msgstr "無効"
+
+#: includes/admin/class-amp-post-meta-box.php:304
+msgid "Enabled"
+msgstr "有効"
+
+#: includes/admin/class-amp-post-meta-box.php:102
+msgid "AMP status."
+msgstr "AMP ステータス。"
+
+#: includes/admin/class-amp-template-customizer.php:728
+msgid "AMP preview enabled"
+msgstr "AMP プレビューが有効"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:28
+msgid "Edit Status"
+msgstr "ステータスを編集"
+
+#: includes/admin/class-amp-post-meta-box.php:372
+msgid "A plugin or theme has disabled AMP support."
+msgstr "プラグインまたはテーマにより AMP 対応が無効化されています。"
+
+#: includes/admin/class-amp-post-meta-box.php:375
+msgid "Unavailable for an unknown reason."
+msgstr "不明な理由により利用不可です。"
+
+#: includes/admin/class-amp-template-customizer.php:587
+msgid "Navigate to an AMP compatible page"
+msgstr "AMP 対応ページに移動"
+
+#: includes/admin/class-amp-template-customizer.php:586
+msgid "AMP is not available for the page currently being previewed."
+msgstr "現在プレビュー中のページで AMP は利用できません。"
+
+#: includes/admin/class-amp-post-meta-box.php:197
+msgid "Preview changes in AMP (opens in new window)"
+msgstr "AMP の変更をプレビュー（新しいウィンドウが開く）"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1703
+#: includes/validation/class-amp-validation-error-taxonomy.php:1618
+msgid "Delete"
+msgstr "削除"
+
+#: src/Admin/AnalyticsOptionsSubmenu.php:59
+#: src/Admin/AnalyticsOptionsSubmenu.php:60 assets/js/amp-settings.js:29
+msgid "Analytics"
+msgstr "アナリティクス"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1601
+#: includes/validation/class-amp-validated-url-post-type.php:1632
+#: includes/validation/class-amp-validated-url-post-type.php:1654
+#: includes/validation/class-amp-validation-manager.php:2473
+msgid "Dismiss this notice."
+msgstr "この通知を非表示にする。"
+
+#. translators: %s is sanitizer class
+#: includes/templates/class-amp-content-sanitizer.php:83
+msgid "Sanitizer (%s) class does not exist"
+msgstr "サニタイザ (%s) クラスが存在しません。"
+
+#. translators: %s: list of tags.
+#: templates/meta-taxonomy.php:44
+msgid "Tags: %s"
+msgstr "タグ: %s"
+
+#. translators: %s: list of categories.
+#: templates/meta-taxonomy.php:27
+msgid "Categories: %s"
+msgstr "カテゴリー: %s"
+
+#: templates/footer.php:24
+msgid "Back to top"
+msgstr "トップへ戻る"
+
+#: includes/settings/class-amp-customizer-design-settings.php:156
+msgid "Header Background & Link Color"
+msgstr "ヘッダーの背景 & リンク色"
+
+#: includes/settings/class-amp-customizer-design-settings.php:142
+msgid "Header Text Color"
+msgstr "ヘッダーテキスト色"
+
+#: includes/settings/class-amp-customizer-design-settings.php:130
+msgid "Design"
+msgstr "デザイン"
+
+#: includes/templates/class-amp-post-template.php:316
+msgid "View Comments"
+msgstr "コメントを表示"
+
+#: includes/settings/class-amp-customizer-design-settings.php:292
+msgid "Dark"
+msgstr "ダークカラー"
+
+#: includes/templates/class-amp-post-template.php:315
+msgid "Leave a Comment"
+msgstr "コメントする"
+
+#: includes/settings/class-amp-customizer-design-settings.php:291
+msgid "Light"
+msgstr "ライトカラー"
+
+#: includes/settings/class-amp-customizer-design-settings.php:168
+msgid "Color Scheme"
+msgstr "配色"
+
+#. Plugin Name of the plugin
+#: src/Admin/OptionsMenu.php:143 src/Admin/SiteHealth.php:134
+#: src/Admin/SiteHealth.php:175 src/Admin/SiteHealth.php:248
+#: src/Admin/SiteHealth.php:315 src/Admin/SiteHealth.php:380
+#: src/Admin/SiteHealth.php:399 includes/amp-helper-functions.php:1894
+#: includes/templates/amp-paired-browsing.php:30
+#: includes/validation/class-amp-validation-manager.php:412
+#: includes/admin/class-amp-admin-pointers.php:66
+#: includes/admin/functions.php:126 includes/admin/functions.php:127
+#: includes/admin/class-amp-template-customizer.php:246
+msgid "AMP"
+msgstr "AMP"
+
+#. translators: %s is key name
+#: includes/templates/class-amp-post-template.php:200
+msgid "Called for non-existent key (\"%s\")."
+msgstr "存在しないキー (\"%s\") を呼び出しています。"
+
+#: back-compat/templates-v0-3/meta-taxonomy.php:8
+#: back-compat/templates-v0-3/meta-taxonomy.php:17
+#: templates/meta-taxonomy.php:21 templates/meta-taxonomy.php:35
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: 1: the template file, 2: WP_CONTENT_DIR.
+#: includes/templates/class-amp-post-template.php:446
+msgid "Path validation for template (%1$s) failed. Path cannot traverse and must be located in `%2$s`."
+msgstr "テンプレート (%1$s) のパス検証に失敗しました。パスは横断不可で、`%2$s` に設置する必要があります。"
