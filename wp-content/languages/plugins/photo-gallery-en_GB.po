@@ -1,0 +1,254 @@
+# Translation of Plugins - Photo Gallery by 10Web &#8211; Mobile-Friendly Image Gallery - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Photo Gallery by 10Web &#8211; Mobile-Friendly Image Gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-17 15:21:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Photo Gallery by 10Web &#8211; Mobile-Friendly Image Gallery - Stable (latest release)\n"
+
+#: addons/addons.php:65
+msgid "GET THIS ADD ON"
+msgstr "GET THIS ADD-ON"
+
+#: addons/addons.php:32
+msgid "Photo Gallery Add-ons"
+msgstr "Photo Gallery Add-ons"
+
+#: addons/addons.php:13
+msgid "Photo Gallery Export / Import"
+msgstr "Photo Gallery Export / Import"
+
+#: addons/addons.php:8
+msgid "This addon integrates NextGen with Photo Gallery allowing to import images and related data from NextGen to use with Photo Gallery"
+msgstr "This add-on integrates NextGen with Photo Gallery, allowing you to import images and related data from NextGen to use with Photo Gallery"
+
+#: addons/addons.php:6
+msgid "NextGen Gallery Import to Photo Gallery"
+msgstr "NextGen Gallery Import to Photo Gallery"
+
+#: admin/views/Themes.php:88 admin/views/Themes.php:119
+#: admin/views/Themes.php:186 admin/views/Options.php:887
+#: admin/views/Options.php:1269 admin/views/Options.php:1495
+#: admin/views/Options.php:1729 admin/views/Options.php:1924
+#: admin/views/Options.php:2162 admin/views/Options.php:2319
+#: admin/views/Options.php:2494 admin/views/Options.php:2703
+#: admin/views/Options.php:2720 admin/views/Options.php:3001
+#: admin/views/Options.php:3018 admin/views/Options.php:3239
+#: admin/views/Options.php:3256 admin/views/Shortcode.php:429
+msgid "Default"
+msgstr "Default"
+
+#: frontend/views/view.php:438 admin/controllers/WidgetSlideshow.php:59
+#: admin/views/Options.php:1200 admin/views/Options.php:1274
+#: admin/views/Options.php:1500 admin/views/Options.php:1734
+#: admin/views/Options.php:1929 admin/views/Options.php:2167
+#: admin/views/Options.php:2324 admin/views/Options.php:2499
+#: admin/views/Options.php:2705 admin/views/Options.php:2725
+#: admin/views/Options.php:3003 admin/views/Options.php:3023
+#: admin/views/Options.php:3241 admin/views/Options.php:3261
+#: admin/views/Widget.php:159
+msgid "Random"
+msgstr "Random"
+
+#: admin/views/AdminView.php:218 framework/WDWLibrary.php:373
+#: framework/WDWLibrary.php:551 photo-gallery.php:1426
+msgid "Search"
+msgstr "Search"
+
+#: frontend/views/view.php:435 filemanager/view.php:154
+#: admin/views/Options.php:1273 admin/views/Options.php:1499
+#: admin/views/Options.php:1733 admin/views/Options.php:1928
+#: admin/views/Options.php:2166 admin/views/Options.php:2323
+#: admin/views/Options.php:2498 admin/views/Options.php:2724
+#: admin/views/Options.php:3022 admin/views/Options.php:3260
+#: admin/views/Galleries.php:726
+msgid "Size"
+msgstr "Size"
+
+#: frontend/views/view.php:380 admin/views/Themes.php:240
+#: admin/views/Options.php:53 admin/views/Galleries.php:741
+#: framework/WDWLibrary.php:374 framework/WDWLibrary.php:552
+#: framework/WDWLibrary.php:2545
+msgid "Reset"
+msgstr "Reset"
+
+#: frontend/views/BWGViewAlbum_extended_preview.php:166
+msgid "Hide"
+msgstr "Hide"
+
+#: frontend/views/view.php:680
+msgid "Go to the first page"
+msgstr "Go to the first page"
+
+#: frontend/views/view.php:693
+msgid "Go to the last page"
+msgstr "Go to the last page"
+
+#: frontend/views/view.php:692
+msgid "Go to the next page"
+msgstr "Go to the next page"
+
+#: frontend/views/view.php:681
+msgid "Go to the previous page"
+msgstr "Go to the previous page"
+
+#: frontend/views/view.php:685 admin/views/AdminView.php:288
+#: framework/WDWLibrary.php:504 framework/WDWLibrary.php:653
+msgid "of"
+msgstr "of"
+
+#: frontend/views/BWGViewAlbum_extended_preview.php:165
+#: frontend/views/BWGViewAlbum_extended_preview.php:168
+msgid "More"
+msgstr "More"
+
+#. Plugin Name of the plugin
+#: admin/views/Widget.php:98 photo-gallery.php:112
+msgid "Photo Gallery"
+msgstr "Photo Gallery"
+
+#: frontend/views/view.php:660
+msgid "Next"
+msgstr "Next"
+
+#: frontend/views/view.php:659
+msgid "Previous"
+msgstr "Previous"
+
+#. Description of the plugin
+msgid "This plugin is a fully responsive gallery plugin with advanced functionality.  It allows having different image galleries for your posts and pages. You can create unlimited number of galleries, combine them into albums, and provide descriptions and tags."
+msgstr "This plugin is a fully responsive gallery plugin with advanced functionality.  It allows having different image galleries for your posts and pages. You can create an unlimited number of galleries, combine them into albums, and provide descriptions and tags."
+
+#: photo-gallery.php:1422
+msgid "This is not a valid email address."
+msgstr "This is not a valid email address."
+
+#: photo-gallery.php:627 photo-gallery.php:1421
+msgid "field is required."
+msgstr "field is required."
+
+#: wd/includes/notices.php:212
+msgid "Maybe Later"
+msgstr "Maybe Later"
+
+#: wd/includes/notices.php:211
+msgid "I've already left a review"
+msgstr "I've already left a review"
+
+#: wd/includes/notices.php:210
+msgid "Sure! I'd love to!"
+msgstr "Sure! I'd love to!"
+
+#: wd/includes/notices.php:209
+msgid "We hope you've enjoyed using WordPress %s! Would you consider leaving us a review on WordPress.org?"
+msgstr "We hope you've enjoyed using WordPress %s! Would you consider leaving us a review on WordPress.org?"
+
+#: wd/includes/notices.php:208
+msgid "Leave A Review?"
+msgstr "Leave A Review?"
+
+#: wd/includes/notices.php:213
+msgid "Never show again"
+msgstr "Never show again"
+
+#: frontend/controllers/controller.php:281
+#: frontend/controllers/controller.php:315
+msgid "There is no gallery selected or the gallery was deleted."
+msgstr "There is no gallery selected or the gallery was deleted."
+
+#: photo-gallery.php:1440 photo-gallery.php:1443
+msgid "Pause"
+msgstr "Pause"
+
+#: photo-gallery.php:1434
+msgid "Exit Fullscreen"
+msgstr "Exit Fullscreen"
+
+#: photo-gallery.php:1431
+msgid "Restore"
+msgstr "Restore"
+
+#: photo-gallery.php:1444
+msgid "Hide info"
+msgstr "Hide info"
+
+#: frontend/views/BWGViewGalleryBox.php:993 photo-gallery.php:1430
+msgid "Hide Comments"
+msgstr "Hide Comments"
+
+#: photo-gallery.php:1429
+msgid "Show Comments"
+msgstr "Show Comments"
+
+#: frontend/views/BWGViewGalleryBox.php:848
+msgid "Download original image"
+msgstr "Download original image"
+
+#: frontend/views/BWGViewGalleryBox.php:833
+msgid "Open image in original size."
+msgstr "Open image in original size."
+
+#: frontend/views/BWGViewGalleryBox.php:794 photo-gallery.php:1445
+msgid "Show info"
+msgstr "Show info"
+
+#: frontend/views/BWGViewGalleryBox.php:792 photo-gallery.php:1433
+msgid "Fullscreen"
+msgstr "Fullscreen"
+
+#: frontend/views/BWGViewGalleryBox.php:788 photo-gallery.php:1432
+msgid "Maximize"
+msgstr "Maximise"
+
+#: frontend/views/BWGViewGalleryBox.php:645
+msgid "The image has been deleted."
+msgstr "The image has been deleted."
+
+#: frontend/views/BWGViewThumbnails.php:45
+#: frontend/views/BWGViewGalleryBox.php:784 photo-gallery.php:1439
+#: photo-gallery.php:1442
+msgid "Play"
+msgstr "Play"
+
+#: photo-gallery.php:1423
+msgid "There are no images matching your search."
+msgstr "There are no images matching your search."
+
+#: frontend/views/view.php:247 filemanager/view.php:237
+msgid "Back"
+msgstr "Back"
+
+#: frontend/views/view.php:432 admin/views/Options.php:1272
+#: admin/views/Options.php:1498 admin/views/Options.php:1732
+#: admin/views/Options.php:1927 admin/views/Options.php:2165
+#: admin/views/Options.php:2322 admin/views/Options.php:2497
+#: admin/views/Options.php:2723 admin/views/Options.php:3021
+#: admin/views/Options.php:3259 admin/views/Galleries.php:647
+#: admin/views/Galleries.php:715
+msgid "Filename"
+msgstr "Filename"
+
+#: filemanager/view.php:133
+msgid "Order by:"
+msgstr "Order by: "
+
+#: frontend/views/view.php:706
+msgid "Load More..."
+msgstr "Load More..."
+
+#: frontend/views/view.php:661 admin/views/Widget.php:161
+msgid "Last"
+msgstr "Last"
+
+#: frontend/views/view.php:658 admin/views/Widget.php:160
+msgid "First"
+msgstr "First"
+
+#: frontend/views/view.php:653
+msgid " item(s)"
+msgstr " item(s)"
