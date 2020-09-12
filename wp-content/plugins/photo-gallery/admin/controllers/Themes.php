@@ -156,8 +156,11 @@ class ThemesController_bwg {
     else {
       global $wpdb;
       $where = ($all ? '' : ' WHERE id=%d');
-      $format = ($all ? '' : $id);
-      $delete = $wpdb->query($wpdb->prepare('DELETE FROM `' . $wpdb->prefix . 'bwg_theme`' . $where, $format));
+      if( $where != '' ) {
+          $delete = $wpdb->query($wpdb->prepare('DELETE FROM `' . $wpdb->prefix . 'bwg_theme`' . $where, $id));
+      } else {
+          $delete = $wpdb->query('DELETE FROM `' . $wpdb->prefix . 'bwg_theme`' . $where);
+      }
       if ( $delete ) {
         $message = 3;
       }

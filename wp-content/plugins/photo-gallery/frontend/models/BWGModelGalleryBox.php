@@ -62,6 +62,7 @@ class BWGModelGalleryBox {
     }
 
     $where = '';
+    $prepareArgs = array();
     if ( $filter_search_name !== '' ) {
       $bwg_search_keys = explode(' ', $filter_search_name);
       $alt_search = '(';
@@ -114,7 +115,11 @@ class BWGModelGalleryBox {
 
     $query = 'SELECT image.*, rates.rate FROM ' . $wpdb->prefix . 'bwg_image as image LEFT JOIN (SELECT rate, image_id FROM ' . $wpdb->prefix . 'bwg_image_rate WHERE ip="' . $_SERVER['REMOTE_ADDR'] . '") as rates ON image.id=rates.image_id ' . $join . ' WHERE image.published=1 ' . $where;
     $query .=  ' ORDER BY ' . str_replace('RAND()', 'RAND(' . $bwg_random_seed . ')', $sort_by) . ' ' . $order_by . ', image.id asc';
-    $rows = $wpdb->get_results( $wpdb->prepare($query, $prepareArgs) );
+    if( !empty($prepareArgs) ) {
+        $rows = $wpdb->get_results($wpdb->prepare($query, $prepareArgs));
+    } else {
+        $rows = $wpdb->get_results($query);
+    }
 
     $images = array();
     if ( !empty($rows) ) {

@@ -211,8 +211,11 @@ class GalleriesController_bwg {
 
     global $wpdb;
     $where = ($all ? '' : ' WHERE id=%d');
-    $format = ($all ? '' : $id);
-    $updated = $wpdb->query($wpdb->prepare('UPDATE `' . $wpdb->prefix . 'bwg_gallery` SET published=1' . $where,$format));
+    if( $where != '' ) {
+      $updated = $wpdb->query($wpdb->prepare('UPDATE `' . $wpdb->prefix . 'bwg_gallery` SET published=1' . $where, $id));
+    } else {
+      $updated = $wpdb->query('UPDATE `' . $wpdb->prefix . 'bwg_gallery` SET published=1' . $where);
+    }
 
     if ( $updated !== FALSE ) {
       $message = 9;
@@ -245,9 +248,12 @@ class GalleriesController_bwg {
   public function unpublish( $id, $bulk = FALSE, $all = FALSE ) {
     global $wpdb;
     $where = ($all ? '' : ' WHERE id=%d');
-    $format = ($all ? '' : $id);
 
-    $updated = $wpdb->query($wpdb->prepare('UPDATE `' . $wpdb->prefix . 'bwg_gallery` SET published=0' . $where,$format));
+    if( $where != '' ) {
+        $updated = $wpdb->query($wpdb->prepare('UPDATE `' . $wpdb->prefix . 'bwg_gallery` SET published=0' . $where, $id));
+    } else {
+        $updated = $wpdb->query('UPDATE `' . $wpdb->prefix . 'bwg_gallery` SET published=0' . $where);
+    }
 
     if ( $updated !== FALSE ) {
       $message = 10;

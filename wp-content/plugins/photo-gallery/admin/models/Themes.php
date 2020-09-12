@@ -38,12 +38,19 @@ class ThemesModel_bwg {
       $prepareArgs[] = $page_num;
       $prepareArgs[] = $page_per;
     }
-
     if ( !$total ) {
-      $rows = $wpdb->get_results($wpdb->prepare($query, $prepareArgs));
+      if ( !empty($prepareArgs) ) {
+          $rows = $wpdb->get_results( $wpdb->prepare( $query, $prepareArgs ) );
+      } else {
+          $rows = $wpdb->get_results($query);
+      }
     }
     else {
-      $rows = $wpdb->get_var($wpdb->prepare($query, $prepareArgs));
+      if ( !empty($prepareArgs) ) {
+          $rows = $wpdb->get_var($wpdb->prepare($query, $prepareArgs));
+      } else {
+          $rows = $wpdb->get_var($query);
+      }
     }
     return $rows;
   }
