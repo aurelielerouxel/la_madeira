@@ -960,7 +960,10 @@ Please note that the pro features aren't advised as part of the free plugin in t
 = 1.2.54 =
 * CSS fixes and improvements to the block times feature
 
+= 1.2.55 =
+* jQuery compatibility update
+
 == Upgrade Notice ==
 
-= 1.2.54 =
-* CSS fixes and improvements to the block times feature
+= 1.2.55 =
+* jQuery compatibility update

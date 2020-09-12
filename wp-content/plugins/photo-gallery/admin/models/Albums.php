@@ -98,9 +98,13 @@ class AlbumsModel_bwg {
       }
     }
 
-    $delete = $wpdb->query($wpdb->prepare('DELETE FROM `' . $wpdb->prefix . 'bwg_album`' . $where, $prepareArgs));
-    $wpdb->query($wpdb->prepare('DELETE FROM `' . $wpdb->prefix . 'bwg_album_gallery` WHERE is_album="1"' . $alb_gal_where, $prepareArgs));
-
+    if( !empty($prepareArgs) ) {
+        $delete = $wpdb->query($wpdb->prepare('DELETE FROM `' . $wpdb->prefix . 'bwg_album`' . $where, $prepareArgs));
+        $wpdb->query($wpdb->prepare('DELETE FROM `' . $wpdb->prefix . 'bwg_album_gallery` WHERE is_album="1"' . $alb_gal_where, $prepareArgs));
+    } else {
+        $delete = $wpdb->query('DELETE FROM `' . $wpdb->prefix . 'bwg_album`' . $where, $prepareArgs);
+        $wpdb->query('DELETE FROM `' . $wpdb->prefix . 'bwg_album_gallery` WHERE is_album="1"' . $alb_gal_where, $prepareArgs);
+    }
     if ( $delete ) {
       if ( $all ) {
         $message = 5;

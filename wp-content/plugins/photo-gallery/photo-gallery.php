@@ -3,7 +3,7 @@
  * Plugin Name: Photo Gallery
  * Plugin URI: https://10web.io/plugins/wordpress-photo-gallery/?utm_source=photo_gallery&utm_medium=free_plugin
  * Description: This plugin is a fully responsive gallery plugin with advanced functionality.  It allows having different image galleries for your posts and pages. You can create unlimited number of galleries, combine them into albums, and provide descriptions and tags.
- * Version: 1.5.61
+ * Version: 1.5.62
  * Author: Photo Gallery Team
  * Author URI: https://10web.io/plugins/?utm_source=photo_gallery&utm_medium=free_plugin
  * License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -106,8 +106,8 @@ final class BWG {
     $this->plugin_url = plugins_url(plugin_basename(dirname(__FILE__)));
     $this->front_url = $this->plugin_url;
     $this->main_file = plugin_basename(__FILE__);
-    $this->plugin_version = '1.5.61';
-    $this->db_version = '1.5.61';
+    $this->plugin_version = '1.5.62';
+    $this->db_version = '1.5.62';
     $this->prefix = 'bwg';
     $this->nicename = __('Photo Gallery', $this->prefix);
     require_once($this->plugin_dir . '/framework/BWGOptions.php');
